@@ -1,137 +1,113 @@
-# Ontologia OpenCUP
+<!--
+  README istituzionale per il repository  PCM-DIPE/public-investment
+  (deliverable Fase B — repository dei semantic assets del dominio investimenti pubblici).
+  NON è il README della PR w3id, che resta minimale.
 
-**Ontologia OWL del dominio del Codice Unico di Progetto (CUP) per gli investimenti pubblici italiani.**
+  LOGHI/IMMAGINI:
+  - Carica i file logo in  docs/img/  (vedi segnaposto sotto) e lascia i percorsi relativi.
+  - Usa i loghi ufficiali di cui hai i diritti (DiPE.png, ISTAT, DTD, ecc.).
+  - I diagrammi Graphol dell'ontologia vanno in  docs/diagrammi/  (PNG/JPG).
+-->
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![OWL](https://img.shields.io/badge/OWL-2-blue.svg)](https://www.w3.org/TR/owl2-overview/)
+<p align="center">
+  <!-- Sostituisci i src con i file reali in docs/img/ . Rimuovi le righe dei loghi che non userai. -->
+  <img src="docs/img/logo-pcm-dipe.png" alt="DIPE — Presidenza del Consiglio dei Ministri" height="72">
+  &nbsp;&nbsp;&nbsp;
+  <img src="docs/img/logo-istat.png" alt="ISTAT" height="72">
+  &nbsp;&nbsp;&nbsp;
+  <img src="docs/img/logo-dtd.png" alt="Dipartimento per la Trasformazione Digitale" height="72">
+</p>
 
-| Proprietà | Valore |
-|---|---|
-| **Namespace IRI** | `https://w3id.org/italia/onto/OpenCUP/` |
-| **Prefisso** | `ocup` |
-| **Versione corrente** | 0.6 |
-| **Licenza** | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
-| **Autore** | [DIPE – Presidenza del Consiglio dei Ministri](https://www.programmazioneeconomica.gov.it) |
+<h1 align="center">Ontologia del dominio degli Investimenti Pubblici</h1>
+<p align="center"><strong>PublicInvestment</strong> &nbsp;·&nbsp; prefisso <code>pi</code> &nbsp;·&nbsp; basata sul <em>Codice Unico di Progetto (CUP)</em> e su OpenCUP</p>
+
+<p align="center">
+  <a href="https://w3id.org/italia/PublicInvestment"><img src="https://img.shields.io/badge/URI%20persistente-w3id.org%2Fitalia%2FPublicInvestment-1a5fb4" alt="w3id URI"></a>
+  <a href="https://schema.gov.it"><img src="https://img.shields.io/badge/Catalogo-schema.gov.it-17324d" alt="schema.gov.it"></a>
+  <img src="https://img.shields.io/badge/versione-v0.1-informational" alt="versione">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/licenza-CC--BY%204.0-blue" alt="licenza CC-BY 4.0"></a>
+  <img src="https://img.shields.io/badge/OGP-Impegno%20C6%20(2024–2026)-2e7d32" alt="OGP C6">
+</p>
 
 ---
 
 ## Descrizione
 
-L'ontologia OpenCUP modella il dominio del **Codice Unico di Progetto (CUP)**, il codice alfanumerico di 15 caratteri che identifica in modo univoco ogni progetto di investimento pubblico in Italia.
+Questo repository ospita i **semantic assets** del dominio degli **investimenti pubblici** della Pubblica Amministrazione italiana: l'ontologia **PublicInvestment**, i relativi **vocabolari controllati** e gli **identificatori persistenti** dei progetti CUP.
 
-L'ontologia formalizza:
+L'ontologia è il prodotto dell'analisi semantica del **Codice Unico di Progetto (CUP)** e del patrimonio informativo del portale **[OpenCUP](https://www.opencup.gov.it)**. È sviluppata dal **Dipartimento per la programmazione e il coordinamento della politica economica (DIPE)** della Presidenza del Consiglio dei Ministri, con la *semantic stewardship* dell'**ISTAT** e in coordinamento con il **Dipartimento per la Trasformazione Digitale (DTD)**, nell'ambito dell'**Impegno C6 del 6° Piano d'Azione Nazionale per il Governo Aperto (OGP) 2024–2026**. È allineata alla rete **OntoPiA** ed è pubblicata nel **Catalogo Nazionale dei dati semantici (schema.gov.it)**.
 
-- **Soggetti e Organizzazioni** – soggetti titolari, concentratori, deleganti e i relativi ruoli nella gestione del CUP
-- **CUP** – le diverse tipologie (standard, master, cumulativo, collegato) e i relativi stati del ciclo di vita
-- **Progetto di investimento pubblico** – i dati generali, geografici e finanziari del progetto
-- **Interventi** – le diverse nature progettuali (lavori pubblici, acquisto di beni, contributi, servizi, incentivi, ricerca, ecc.)
-- **Atti** – atti amministrativi, di finanziamento, autorizzazione, chiusura, revoca, delega
-- **Classificazioni** – natura, settore, sotto-settore, categoria, area di intervento
+## URI persistenti
 
-L'ontologia è sviluppata come parte del framework nazionale di interoperabilità semantica ed è allineata con la rete di ontologie **OntoPiA** (`https://w3id.org/italia/onto/`).
-
-## Statistiche (v0.6)
-
-| Elemento | Quantità |
+| Risorsa | URI |
 |---|---|
-| Classi (OpenCUP) | 74 |
-| Classi (riferimenti esterni) | 8 |
-| Object Properties | 64 |
-| Data Properties | 36 |
-| Named Individuals | 8 |
-| Triple RDF totali | 865 |
+| Ontologia | `https://w3id.org/italia/PublicInvestment/onto/PublicInvestment` |
+| Vocabolari controllati | `https://w3id.org/italia/PublicInvestment/controlled-vocabulary/{nome}` |
+| Progetti (per codice CUP) | `https://w3id.org/italia/PublicInvestment/data/CUP/{CODICE_CUP}` |
+
+> Gli URI sotto `data/CUP/` sono gli **identificatori ufficiali e persistenti** dei progetti d'investimento nei Linked Open Data e risolvono alla scheda pubblica del progetto su OpenCUP.
+
+## Il modello
+
+<p align="center">
+  <!-- Diagramma Graphol esportato in PNG/JPG. Sostituisci con il file reale. -->
+  <img src="docs/diagrammi/PublicInvestment-overview.png" alt="Diagramma dell'ontologia PublicInvestment" width="80%">
+</p>
+
+L'ontologia modella le entità centrali del sistema CUP: il **progetto** d'investimento, i **soggetti** (titolari e attuatori), i **dati finanziari**, la **localizzazione geografica** e gli **schemi di classificazione** (natura, settore, sottosettore, tipologia, categoria).
 
 ## Struttura del repository
 
 ```
-ontologia-opencup/
-├── latest/                     # Versione corrente
-│   ├── OpenCUP.owl             # OWL (RDF/XML)
-│   ├── OpenCUP.rdf             # RDF/XML
-│   ├── OpenCUP.ttl             # Turtle
-│   ├── OpenCUP.jsonld          # JSON-LD
-│   ├── OpenCUP.nt              # N-Triples
-│   └── OpenCUP.graphol         # Sorgente Graphol (Eddy)
-├── 0.6/                        # Versione 0.6
-│   ├── (stesse serializzazioni)
-│   └── OpenCUP_v0_6.graphol    # Sorgente Graphol originale
-├── w3id/                       # File per registrazione w3id.org
-│   ├── .htaccess
-│   └── README.md
-├── docs/                       # Documentazione HTML
-│   └── index.html
+public-investment/
+├── README.md
+├── LICENSE                      ← CC-BY 4.0
 ├── CHANGELOG.md
-├── LICENSE
-└── README.md                   # Questo file
+├── assets/
+│   ├── ontologies/
+│   │   └── PublicInvestment/
+│   │       ├── latest/          ← PublicInvestment.{ttl,rdf,n3} + -metadata.ttl
+│   │       └── v0.1/            ← copia immutabile della versione rilasciata
+│   └── controlled-vocabularies/
+│       └── {nome_vocabolario}/
+│           └── latest/
+├── src/                         ← sorgente Graphol
+├── doc/                         ← Documento di Analisi (PDF) e note
+│   └── diagrammi/               ← PNG/JPG dei diagrammi ontologici
+└── docs/
+    └── img/                     ← loghi e immagini del README
 ```
 
-## Ontologie esterne referenziate
+## Serializzazioni
 
-L'ontologia OpenCUP fa riferimento (import) alle seguenti ontologie della rete OntoPiA:
-
-| Prefisso | Ontologia | Namespace |
+| Formato | File | Uso |
 |---|---|---|
-| `L0` | Top-level Ontology | `https://w3id.org/italia/onto/l0/` |
-| `CLV` | Core Location Vocabulary | `https://w3id.org/italia/onto/CLV/` |
-| `COV` | Core Organization Vocabulary | `https://w3id.org/italia/onto/COV/` |
-| `CPV` | Core Person Vocabulary | `https://w3id.org/italia/onto/CPV/` |
-| `TI` | Time Ontology | `https://w3id.org/italia/onto/TI/` |
-| `RO` | Role Ontology | `https://w3id.org/italia/onto/RO/` |
-| `SM` | Social Media / Online Contact | `https://w3id.org/italia/onto/SM/` |
+| Turtle | `PublicInvestment.ttl` | formato di riferimento (OntoPiA) |
+| RDF/XML | `PublicInvestment.rdf` | interoperabilità, import tool (es. Protégé) |
+| N-Triples | `PublicInvestment.n3` | triple grezze, triplestore/SPARQL |
+| Metadati | `PublicInvestment-metadata.ttl` | scheda ADMS-AP_IT |
 
-## URI permanenti (w3id.org)
+## Come citare
 
-Le URI dell'ontologia sono registrate tramite il servizio [w3id.org](https://w3id.org/):
+> DIPE — Dipartimento per la programmazione e il coordinamento della politica economica (Presidenza del Consiglio dei Ministri). *Ontologia del dominio degli Investimenti Pubblici (PublicInvestment)*, v0.1. URI: https://w3id.org/italia/PublicInvestment — Licenza CC-BY 4.0.
 
-```
-# Ontologia (con content negotiation)
-https://w3id.org/italia/onto/OpenCUP/
+## Manutentori e contatti
 
-# Singola classe o proprietà
-https://w3id.org/italia/onto/OpenCUP/Progetto_investimento_pubblico
-
-# Versione specifica
-https://w3id.org/italia/onto/OpenCUP/0.6/
-```
-
-Content negotiation supportata:
-
-```bash
-# Turtle
-curl -L -H "Accept: text/turtle" https://w3id.org/italia/onto/OpenCUP/
-
-# RDF/XML
-curl -L -H "Accept: application/rdf+xml" https://w3id.org/italia/onto/OpenCUP/
-
-# JSON-LD
-curl -L -H "Accept: application/ld+json" https://w3id.org/italia/onto/OpenCUP/
-
-# HTML (documentazione, default browser)
-curl -L https://w3id.org/italia/onto/OpenCUP/
-```
-
-## Risorse correlate
-
-- **Portale OpenCUP**: [https://opencup.gov.it](https://opencup.gov.it)
-- **API OpenCUP**: [https://www.opencup.gov.it/portale/web/opencup/le-api-di-opencup](https://www.opencup.gov.it/portale/web/opencup/le-api-di-opencup)
-- **Scheda CUP** (URL breve): `https://opencup.gov.it/portale/progetto/-/cup/{CODICE_CUP}`
-- **DIPE**: [https://www.programmazioneeconomica.gov.it](https://www.programmazioneeconomica.gov.it)
-- **OntoPiA**: [https://github.com/italia/daf-ontologie-vocabolari-controllati](https://github.com/italia/daf-ontologie-vocabolari-controllati)
-- **Schema.gov.it**: [https://schema.gov.it](https://schema.gov.it)
-
-## Strumenti utilizzati
-
-- **[Eddy](https://www.obdasystems.com/eddy)** – editor visuale per ontologie basato su Graphol
-- **[rdflib](https://rdflib.readthedocs.io/)** – libreria Python per la serializzazione RDF
+- **Handle GitHub (manutentore):** [@PCM-DIPE](https://github.com/PCM-DIPE)
+- Francesco De Stefanis (DIPE) — f.destefanis@governo.it
+- Leonardo Salvatori (DIPE) — leo.salvatori@governo.it
+- *Semantic stewardship:* ISTAT
 
 ## Licenza
 
-Quest'opera è distribuita con Licenza [Creative Commons Attribuzione 4.0 Internazionale](https://creativecommons.org/licenses/by/4.0/).
+Distribuito con licenza **[Creative Commons Attribution 4.0 International (CC-BY 4.0)](LICENSE)**, la licenza standard delle ontologie della rete OntoPiA.
 
-## Contatti
+## Ringraziamenti
 
-**Dipartimento per la programmazione e il coordinamento della politica economica (DIPE)**
-Presidenza del Consiglio dei Ministri
+Lavoro svolto nell'ambito dell'**Impegno C6 del 6° Piano d'Azione Nazionale OGP (2024–2026)**, con il contributo di ISTAT e del Dipartimento per la Trasformazione Digitale.
 
-- Web: [https://www.programmazioneeconomica.gov.it](https://www.programmazioneeconomica.gov.it)
-- GitHub: [@PCM-DIPE](https://github.com/PCM-DIPE)
+<p align="center">
+  <img src="docs/img/logo-ogp.png" alt="Open Government Partnership" height="48">
+  &nbsp;&nbsp;&nbsp;
+  <img src="docs/img/logo-opencup.png" alt="OpenCUP" height="48">
+</p>
