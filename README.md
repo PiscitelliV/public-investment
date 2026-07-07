@@ -1,21 +1,27 @@
 <!--
-  README istituzionale per il repository  PCM-DIPE/public-investment
+  README istituzionale del repository  PCM-DIPE/public-investment
   (deliverable Fase B — repository dei semantic assets del dominio investimenti pubblici).
-  NON è il README della PR w3id, che resta minimale.
+  NON è il README della cartella w3id (perma-id/w3id.org/italia/PublicInvestment), che resta minimale.
 
-  LOGHI/IMMAGINI:
-  - Carica i file logo in  docs/img/  (vedi segnaposto sotto) e lascia i percorsi relativi.
-  - Usa i loghi ufficiali di cui hai i diritti (DiPE.png, ISTAT, DTD, ecc.).
-  - I diagrammi Graphol dell'ontologia vanno in  docs/diagrammi/  (PNG/JPG).
+  LOGHI: l'intestazione grafica è momentaneamente sostituita da un'intestazione testuale.
+  Per ripristinarla, caricare i loghi ufficiali in docs/img/ (nomi file indicati in
+  docs/img/README.md) e riattivare il blocco commentato qui sotto.
 -->
 
+<!--
 <p align="center">
-  <!-- Sostituisci i src con i file reali in docs/img/ . Rimuovi le righe dei loghi che non userai. -->
   <img src="docs/img/logo-pcm-dipe.png" alt="DIPE — Presidenza del Consiglio dei Ministri" height="72">
   &nbsp;&nbsp;&nbsp;
   <img src="docs/img/logo-istat.png" alt="ISTAT" height="72">
   &nbsp;&nbsp;&nbsp;
   <img src="docs/img/logo-dtd.png" alt="Dipartimento per la Trasformazione Digitale" height="72">
+</p>
+-->
+
+<p align="center">
+  <strong>Presidenza del Consiglio dei Ministri</strong><br>
+  Dipartimento per la programmazione e il coordinamento della politica economica (DIPE)<br>
+  <em>con la semantic stewardship di ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale</em>
 </p>
 
 <h1 align="center">Ontologia del dominio degli Investimenti Pubblici</h1>
@@ -33,9 +39,11 @@
 
 ## Descrizione
 
-Questo repository ospita i **semantic assets** del dominio degli **investimenti pubblici** della Pubblica Amministrazione italiana: l'ontologia **PublicInvestment**, i relativi **vocabolari controllati** e gli **identificatori persistenti** dei progetti CUP.
+Questo repository ospita i **semantic assets** del dominio degli **investimenti pubblici** della Pubblica Amministrazione italiana: l'ontologia **PublicInvestment**, i relativi **vocabolari controllati** (in predisposizione) e gli **identificatori persistenti** dei progetti CUP.
 
-L'ontologia è il prodotto dell'analisi semantica del **Codice Unico di Progetto (CUP)** e del patrimonio informativo del portale **[OpenCUP](https://www.opencup.gov.it)**. È sviluppata dal **Dipartimento per la programmazione e il coordinamento della politica economica (DIPE)** della Presidenza del Consiglio dei Ministri, con la *semantic stewardship* dell'**ISTAT** e in coordinamento con il **Dipartimento per la Trasformazione Digitale (DTD)**, nell'ambito dell'**Impegno C6 del 6° Piano d'Azione Nazionale per il Governo Aperto (OGP) 2024–2026**. È allineata alla rete **OntoPiA** ed è pubblicata nel **Catalogo Nazionale dei dati semantici (schema.gov.it)**.
+L'ontologia è il prodotto dell'analisi semantica del **Codice Unico di Progetto (CUP)** e del patrimonio informativo del portale **[OpenCUP](https://www.opencup.gov.it)**. È sviluppata dal **Dipartimento per la programmazione e il coordinamento della politica economica (DIPE)** della Presidenza del Consiglio dei Ministri, con la *semantic stewardship* dell'**ISTAT** e in coordinamento con il **Dipartimento per la Trasformazione Digitale (DTD)**, nell'ambito dell'**Impegno C6 del 6° Piano d'Azione Nazionale per il Governo Aperto (OGP) 2024–2026**.
+
+Il namespace persistente `w3id.org/italia/PublicInvestment` è registrato secondo il modello *domain-contributor* del namespace nazionale `w3id.org/italia`. L'ontologia riusa ontologie della rete **OntoPiA** (tra cui CLV, COV, TI e SKOS) ed è in corso di indicizzazione nel **Catalogo Nazionale dei dati semantici ([schema.gov.it](https://schema.gov.it))**.
 
 ## URI persistenti
 
@@ -47,45 +55,42 @@ L'ontologia è il prodotto dell'analisi semantica del **Codice Unico di Progetto
 
 > Gli URI sotto `data/CUP/` sono gli **identificatori ufficiali e persistenti** dei progetti d'investimento nei Linked Open Data e risolvono alla scheda pubblica del progetto su OpenCUP.
 
+L'URI dell'ontologia supporta la *content negotiation*: le richieste con `Accept` RDF (`text/turtle`, `application/rdf+xml`, `application/n-triples`) risolvono alle serializzazioni pubblicate in questo repository; le richieste HTML rinviano alla documentazione sul Catalogo Nazionale dei dati semantici, disponibile a valle dell'indicizzazione.
+
 ## Il modello
 
 <p align="center">
-  <!-- Diagramma Graphol esportato in PNG/JPG. Sostituisci con il file reale. -->
-  <img src="docs/diagrammi/PublicInvestment-overview.png" alt="Diagramma dell'ontologia PublicInvestment" width="80%">
+  <img src="docs/diagrammi/PublicInvestment-overview.png" alt="Vista d'insieme semplificata dell'ontologia PublicInvestment" width="80%">
 </p>
+<p align="center"><sub>Vista d'insieme semplificata, derivata dalla serializzazione pubblicata (v0.1). Il sorgente vettoriale è disponibile in <code>docs/diagrammi/</code>.</sub></p>
 
-L'ontologia modella le entità centrali del sistema CUP: il **progetto** d'investimento, i **soggetti** (titolari e attuatori), i **dati finanziari**, la **localizzazione geografica** e gli **schemi di classificazione** (natura, settore, sottosettore, tipologia, categoria).
+L'ontologia modella le entità centrali del sistema CUP: il **progetto** d'investimento, il **codice unico di progetto** e la sua storia, gli **interventi** con i relativi **schemi di classificazione** (natura, settore, sottosettore, tipologia, categoria), i **soggetti** (titolari, attuatori, accreditati), gli **atti di finanziamento**, la **localizzazione** e gli elementi **PNRR** (tematiche, sub-investimenti, target).
 
 ## Struttura del repository
 
 ```
 public-investment/
 ├── README.md
-├── LICENSE                      ← CC-BY 4.0
-├── CHANGELOG.md
+├── LICENSE                          ← CC-BY 4.0
 ├── assets/
-│   ├── ontologies/
-│   │   └── PublicInvestment/
-│   │       ├── latest/          ← PublicInvestment.{ttl,rdf,n3} + -metadata.ttl
-│   │       └── v0.1/            ← copia immutabile della versione rilasciata
-│   └── controlled-vocabularies/
-│       └── {nome_vocabolario}/
-│           └── latest/
-├── src/                         ← sorgente Graphol
-├── doc/                         ← Documento di Analisi (PDF) e note
-│   └── diagrammi/               ← PNG/JPG dei diagrammi ontologici
+│   └── ontologies/
+│       └── PublicInvestment/
+│           ├── latest/              ← PublicInvestment.{ttl,rdf,json-ld}
+│           └── v0.1/                ← copia immutabile della versione rilasciata
 └── docs/
-    └── img/                     ← loghi e immagini del README
+    ├── diagrammi/                   ← diagrammi dell'ontologia (PNG/SVG)
+    └── img/                         ← loghi e immagini del README
 ```
+
+In predisposizione: `assets/controlled-vocabularies/{nome}/latest/`, destinata ad accogliere i vocabolari controllati del dominio.
 
 ## Serializzazioni
 
 | Formato | File | Uso |
 |---|---|---|
-| Turtle | `PublicInvestment.ttl` | formato di riferimento (OntoPiA) |
-| RDF/XML | `PublicInvestment.rdf` | interoperabilità, import tool (es. Protégé) |
-| N-Triples | `PublicInvestment.n3` | triple grezze, triplestore/SPARQL |
-| Metadati | `PublicInvestment-metadata.ttl` | scheda ADMS-AP_IT |
+| Turtle | `PublicInvestment.ttl` | formato di riferimento |
+| RDF/XML | `PublicInvestment.rdf` | interoperabilità, import in tool (es. Protégé) |
+| JSON-LD | `PublicInvestment.json-ld` | integrazione in applicazioni web |
 
 ## Come citare
 
@@ -100,14 +105,16 @@ public-investment/
 
 ## Licenza
 
-Distribuito con licenza **[Creative Commons Attribution 4.0 International (CC-BY 4.0)](LICENSE)**, la licenza standard delle ontologie della rete OntoPiA.
+Distribuito con licenza **[Creative Commons Attribution 4.0 International (CC-BY 4.0)](LICENSE)**.
 
 ## Ringraziamenti
 
-Lavoro svolto nell'ambito dell'**Impegno C6 del 6° Piano d'Azione Nazionale OGP (2024–2026)**, con il contributo di ISTAT e del Dipartimento per la Trasformazione Digitale.
+Lavoro svolto nell'ambito dell'**Impegno C6 del 6° Piano d'Azione Nazionale OGP (2024–2026)** — [Open Government Partnership](https://www.opengovpartnership.org) / [open.gov.it](https://open.gov.it) — con il contributo di ISTAT e del Dipartimento per la Trasformazione Digitale, a partire dal patrimonio informativo di [OpenCUP](https://www.opencup.gov.it).
 
+<!--
 <p align="center">
   <img src="docs/img/logo-ogp.png" alt="Open Government Partnership" height="48">
   &nbsp;&nbsp;&nbsp;
   <img src="docs/img/logo-opencup.png" alt="OpenCUP" height="48">
 </p>
+-->
