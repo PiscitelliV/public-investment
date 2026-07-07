@@ -2093,6 +2093,9 @@
   "@id" : "http://dati.gov.it/onto/dcatapit#Standard",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/Standard",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
@@ -2191,6 +2194,39 @@
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-atto.png"
+  }, {
+    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-cup.png"
+  }, {
+    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-intervento.png"
+  }, {
+    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-natura-intervento.png"
+  }, {
+    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-progetto.png"
+  }, {
+    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-relazioni-intervento.png"
+  }, {
+    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-soggetto.png"
+  }, {
+    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-tipizzazione-data-property.png"
+  }, {
+    "@value" : "Atto."
+  }, {
+    "@value" : "CUP."
+  }, {
+    "@value" : "Intervento."
+  }, {
+    "@value" : "Natura di intervento."
+  }, {
+    "@value" : "Progetto."
+  }, {
+    "@value" : "Relazioni intervento."
+  }, {
+    "@value" : "Soggetto."
+  }, {
+    "@value" : "Tipizzazione data property."
+  } ],
   "http://purl.org/dc/terms/accrualPeriodicity" : [ {
     "@id" : "http://publications.europa.eu/resource/authority/frequency/IRREG"
   } ],
@@ -2201,17 +2237,17 @@
   } ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "it",
-    "@value" : "L’ontologia è il prodotto dell'analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell'ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell'ambito dell'Impegno C6 del 6° Piano d'Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata alla rete OntoPiA ed è pubblicata nel Catalogo Nazionale dei dati semantici (schema.gov.it)."
+    "@value" : "L’ontologia è il prodotto dell'analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell'ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell'ambito dell'Impegno C6 del 6° Piano d'Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata con le ontologie CORE della rete semantica del Catalogo Nazionale dei dati (schema.gov.it)."
   }, {
     "@language" : "en",
-    "@value" : "This ontology is the product of the semantic analysis of the Unique Project Code (CUP) and of the information assets of the OpenCUP portal. It is developed by the Department for Programming and Coordination of Economic Policy (DIPE) of the Presidency of the Council of Ministers, with the semantic stewardship of ISTAT and in coordination with the Department for Digital Transformation (DTD), within commitment C6 of the 6th National Action Plan for the Open Government Partnership (OGP) 2024–2026. It is aligned with the OntoPiA network and published in the National Catalog of Semantic Data (schema.gov.it)."
+    "@value" : "This ontology results from the semantic analysis of the Unique Project Code (CUP) and the information assets of the OpenCUP portal. It has been developed by the Department for Programming and Coordination of Economic Policy (DIPE) of the Presidency of the Council of Ministers, with semantic stewardship by ISTAT and in coordination with the Department for Digital Transformation (DTD), within Commitment C6 of the 6th National Action Plan for the Open Government Partnership (OGP) 2024–2026. It is aligned with the CORE ontologies of the National Data Catalogue semantic network (schema.gov.it)."
   } ],
   "http://purl.org/dc/terms/identifier" : [ {
     "@value" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment"
   } ],
   "http://purl.org/dc/terms/issued" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
-    "@value" : "2026-07-08"
+    "@value" : "2026-07-07"
   } ],
   "http://purl.org/dc/terms/language" : [ {
     "@id" : "http://publications.europa.eu/resource/authority/language/ENG"
@@ -2220,7 +2256,7 @@
   } ],
   "http://purl.org/dc/terms/modified" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
-    "@value" : "2026-07-08"
+    "@value" : "2026-07-07"
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
     "@id" : "https://w3id.org/italia/data/public-organization/PCM-DIPE"
@@ -2243,10 +2279,10 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "it",
-    "@value" : "L’ontologia è il prodotto dell'analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell'ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell'ambito dell'Impegno C6 del 6° Piano d'Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata alla rete OntoPiA ed è pubblicata nel Catalogo Nazionale dei dati semantici (schema.gov.it)."
+    "@value" : "L’ontologia è il prodotto dell'analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell'ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell'ambito dell'Impegno C6 del 6° Piano d'Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata con le ontologie CORE della rete semantica del Catalogo Nazionale dei dati (schema.gov.it)."
   }, {
     "@language" : "en",
-    "@value" : "This ontology is the product of the semantic analysis of the Unique Project Code (CUP) and of the information assets of the OpenCUP portal. It is developed by the Department for Programming and Coordination of Economic Policy (DIPE) of the Presidency of the Council of Ministers, with the semantic stewardship of ISTAT and in coordination with the Department for Digital Transformation (DTD), within commitment C6 of the 6th National Action Plan for the Open Government Partnership (OGP) 2024–2026. It is aligned with the OntoPiA network and published in the National Catalog of Semantic Data (schema.gov.it)."
+    "@value" : "This ontology results from the semantic analysis of the Unique Project Code (CUP) and the information assets of the OpenCUP portal. It has been developed by the Department for Programming and Coordination of Economic Policy (DIPE) of the Presidency of the Council of Ministers, with semantic stewardship by ISTAT and in coordination with the Department for Digital Transformation (DTD), within Commitment C6 of the 6th National Action Plan for the Open Government Partnership (OGP) 2024–2026. It is aligned with the CORE ontologies of the National Data Catalogue semantic network (schema.gov.it)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",

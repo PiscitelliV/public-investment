@@ -24,7 +24,7 @@ Questo repository ospita i **semantic assets** del dominio degli **investimenti 
 
 L'ontologia è il prodotto dell'analisi semantica del **Codice Unico di Progetto (CUP)** e del patrimonio informativo del portale **[OpenCUP](https://www.opencup.gov.it)**. È sviluppata dal **Dipartimento per la programmazione e il coordinamento della politica economica (DIPE)** della Presidenza del Consiglio dei Ministri, con la *semantic stewardship* dell'**ISTAT** e in coordinamento con il **Dipartimento per la Trasformazione Digitale (DTD)**, nell'ambito dell'**Impegno C6 del 6° Piano d'Azione Nazionale per il Governo Aperto (OGP) 2024–2026**.
 
-Il namespace persistente `w3id.org/italia/PublicInvestment` è registrato secondo il modello *domain-contributor* del namespace nazionale `w3id.org/italia`. L'ontologia riusa ontologie della rete **OntoPiA** (tra cui CLV, COV, TI e SKOS) ed è in corso di indicizzazione nel **Catalogo Nazionale dei dati semantici ([schema.gov.it](https://schema.gov.it))**.
+Il namespace persistente `w3id.org/italia/PublicInvestment` è registrato secondo il modello *domain-contributor* del namespace nazionale `w3id.org/italia`. L'ontologia riusa ontologie CORE: CLV, COV, TI e SKOS della rete semantica del **Catalogo Nazionale dei dati semantici ([schema.gov.it](https://schema.gov.it))**.
 
 ## URI persistenti
 
