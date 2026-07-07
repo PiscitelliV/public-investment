@@ -8,7 +8,7 @@
   docs/img/README.md) e riattivare il blocco commentato qui sotto.
 -->
 
-<!--
+
 <p align="center">
   <img src="docs/img/logo-pcm-dipe.png" alt="DIPE — Presidenza del Consiglio dei Ministri" height="72">
   &nbsp;&nbsp;&nbsp;
@@ -16,7 +16,7 @@
   &nbsp;&nbsp;&nbsp;
   <img src="docs/img/logo-dtd.png" alt="Dipartimento per la Trasformazione Digitale" height="72">
 </p>
--->
+
 
 <p align="center">
   <strong>Presidenza del Consiglio dei Ministri</strong><br>
