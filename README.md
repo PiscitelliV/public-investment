@@ -1,27 +1,13 @@
-<!--
-  README istituzionale del repository  PCM-DIPE/public-investment
-  (deliverable Fase B — repository dei semantic assets del dominio investimenti pubblici).
-  NON è il README della cartella w3id (perma-id/w3id.org/italia/PublicInvestment), che resta minimale.
-
-  LOGHI: l'intestazione grafica è momentaneamente sostituita da un'intestazione testuale.
-  Per ripristinarla, caricare i loghi ufficiali in docs/img/ (nomi file indicati in
-  docs/img/README.md) e riattivare il blocco commentato qui sotto.
--->
-
-
 <p align="center">
-  <img src="docs/img/logo-pcm-dipe.png" alt="DIPE — Presidenza del Consiglio dei Ministri" height="72">
-  &nbsp;&nbsp;&nbsp;
-  <img src="docs/img/logo-istat.png" alt="ISTAT" height="72">
-  &nbsp;&nbsp;&nbsp;
-  <img src="docs/img/logo-dtd.png" alt="Dipartimento per la Trasformazione Digitale" height="72">
+  <img src="docs/img/logo-pcm-dipe.png" alt="DIPE — Presidenza del Consiglio dei Ministri" height="80">
 </p>
 
+<p align="center"><sub><em>con la semantic stewardship di ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale</em></sub></p>
 
 <p align="center">
-  <strong>Presidenza del Consiglio dei Ministri</strong><br>
-  Dipartimento per la programmazione e il coordinamento della politica economica (DIPE)<br>
-  <em>con la semantic stewardship di ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale</em>
+  <img src="docs/img/logo-istat.png" alt="ISTAT" height="42">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="docs/img/logo-dtd.png" alt="Dipartimento per la Trasformazione Digitale" height="42">
 </p>
 
 <h1 align="center">Ontologia del dominio degli Investimenti Pubblici</h1>
@@ -111,10 +97,8 @@ Distribuito con licenza **[Creative Commons Attribution 4.0 International (CC-BY
 
 Lavoro svolto nell'ambito dell'**Impegno C6 del 6° Piano d'Azione Nazionale OGP (2024–2026)** — [Open Government Partnership](https://www.opengovpartnership.org) / [open.gov.it](https://open.gov.it) — con il contributo di ISTAT e del Dipartimento per la Trasformazione Digitale, a partire dal patrimonio informativo di [OpenCUP](https://www.opencup.gov.it).
 
-<!--
 <p align="center">
   <img src="docs/img/logo-ogp.png" alt="Open Government Partnership" height="48">
   &nbsp;&nbsp;&nbsp;
   <img src="docs/img/logo-opencup.png" alt="OpenCUP" height="48">
 </p>
--->
