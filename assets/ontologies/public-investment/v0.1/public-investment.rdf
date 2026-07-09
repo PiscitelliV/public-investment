@@ -4,6 +4,7 @@
      xmlns:RO="https://w3id.org/italia/onto/RO/"
      xmlns:SM="https://w3id.org/italia/onto/SM/"
      xmlns:TI="https://w3id.org/italia/onto/TI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:l0="https://w3id.org/italia/onto/l0/"
      xmlns:CLV="https://w3id.org/italia/onto/CLV/"
      xmlns:COV="https://w3id.org/italia/onto/COV/"
@@ -28,21 +29,21 @@
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
         <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/ISTAT"/>
         <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/PCM-DIPE"/>
-        <dct:description xml:lang="it">L’ontologia è il prodotto dell&apos;analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell&apos;ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell&apos;ambito dell&apos;Impegno C6 del 6° Piano d&apos;Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata alla rete OntoPiA ed è pubblicata nel Catalogo Nazionale dei dati semantici (schema.gov.it).</dct:description>
-        <dct:description xml:lang="en">This ontology is the product of the semantic analysis of the Unique Project Code (CUP) and of the information assets of the OpenCUP portal. It is developed by the Department for Programming and Coordination of Economic Policy (DIPE) of the Presidency of the Council of Ministers, with the semantic stewardship of ISTAT and in coordination with the Department for Digital Transformation (DTD), within commitment C6 of the 6th National Action Plan for the Open Government Partnership (OGP) 2024–2026. It is aligned with the OntoPiA network and published in the National Catalog of Semantic Data (schema.gov.it).</dct:description>
+        <dct:description xml:lang="it">L’ontologia è il prodotto dell&apos;analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell&apos;ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell&apos;ambito dell&apos;Impegno C6 del 6° Piano d&apos;Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata con le ontologie CORE della rete semantica del Catalogo Nazionale dei dati (schema.gov.it).</dct:description>
+        <dct:description xml:lang="en">This ontology results from the semantic analysis of the Unique Project Code (CUP) and the information assets of the OpenCUP portal. It has been developed by the Department for Programming and Coordination of Economic Policy (DIPE) of the Presidency of the Council of Ministers, with semantic stewardship by ISTAT and in coordination with the Department for Digital Transformation (DTD), within Commitment C6 of the 6th National Action Plan for the Open Government Partnership (OGP) 2024–2026. It is aligned with the CORE ontologies of the National Data Catalogue semantic network (schema.gov.it).</dct:description>
         <dct:identifier>https://w3id.org/italia/PublicInvestment/onto/PublicInvestment</dct:identifier>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-07-08</dct:issued>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-07-07</dct:issued>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-07-08</dct:modified>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-07-07</dct:modified>
         <dct:publisher rdf:resource="https://w3id.org/italia/data/public-organization/PCM-DIPE"/>
         <dct:rightsHolder rdf:resource="https://w3id.org/italia/data/public-organization/PCM-DIPE"/>
         <dct:subject rdf:resource="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment"/>
         <dct:temporal>Dal 2026</dct:temporal>
         <dct:title xml:lang="it">Ontologia degli Investimenti Pubblici</dct:title>
         <dct:title xml:lang="en">Public Investment Ontology</dct:title>
-        <rdfs:comment xml:lang="it">L’ontologia è il prodotto dell&apos;analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell&apos;ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell&apos;ambito dell&apos;Impegno C6 del 6° Piano d&apos;Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata alla rete OntoPiA ed è pubblicata nel Catalogo Nazionale dei dati semantici (schema.gov.it).</rdfs:comment>
-        <rdfs:comment xml:lang="en">This ontology is the product of the semantic analysis of the Unique Project Code (CUP) and of the information assets of the OpenCUP portal. It is developed by the Department for Programming and Coordination of Economic Policy (DIPE) of the Presidency of the Council of Ministers, with the semantic stewardship of ISTAT and in coordination with the Department for Digital Transformation (DTD), within commitment C6 of the 6th National Action Plan for the Open Government Partnership (OGP) 2024–2026. It is aligned with the OntoPiA network and published in the National Catalog of Semantic Data (schema.gov.it).</rdfs:comment>
+        <rdfs:comment xml:lang="it">L’ontologia è il prodotto dell&apos;analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell&apos;ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell&apos;ambito dell&apos;Impegno C6 del 6° Piano d&apos;Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata con le ontologie CORE della rete semantica del Catalogo Nazionale dei dati (schema.gov.it).</rdfs:comment>
+        <rdfs:comment xml:lang="en">This ontology results from the semantic analysis of the Unique Project Code (CUP) and the information assets of the OpenCUP portal. It has been developed by the Department for Programming and Coordination of Economic Policy (DIPE) of the Presidency of the Council of Ministers, with semantic stewardship by ISTAT and in coordination with the Department for Digital Transformation (DTD), within Commitment C6 of the 6th National Action Plan for the Open Government Partnership (OGP) 2024–2026. It is aligned with the CORE ontologies of the National Data Catalogue semantic network (schema.gov.it).</rdfs:comment>
         <rdfs:label xml:lang="it">Ontologia degli Investimenti Pubblici</rdfs:label>
         <rdfs:label xml:lang="en">Public Investment Ontology.</rdfs:label>
         <owl:versionInfo xml:lang="en">Version 1.0</owl:versionInfo>
@@ -54,6 +55,55 @@
         <dcat:keyword xml:lang="en">Public Investment</dcat:keyword>
         <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
         <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <hasImage>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+                <dc:description>CUP.</dc:description>
+                <foaf:depiction rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-cup.png"/>
+            </rdf:Description>
+        </hasImage>
+        <hasImage>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+                <dc:description>Natura di intervento.</dc:description>
+                <foaf:depiction rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-natura-intervento.png"/>
+            </rdf:Description>
+        </hasImage>
+        <hasImage>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+                <dc:description>Atto.</dc:description>
+                <foaf:depiction rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-atto.png"/>
+            </rdf:Description>
+        </hasImage>
+        <hasImage>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+                <dc:description>Progetto.</dc:description>
+                <foaf:depiction rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-progetto.png"/>
+            </rdf:Description>
+        </hasImage>
+        <hasImage>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+                <dc:description>Intervento.</dc:description>
+                <foaf:depiction rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-intervento.png"/>
+            </rdf:Description>
+        </hasImage>
+        <hasImage>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+                <dc:description>Soggetto.</dc:description>
+                <foaf:depiction rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-soggetto.png"/>
+            </rdf:Description>
+        </hasImage>
+        <hasImage>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+                <dc:description>Relazioni intervento.</dc:description>
+                <foaf:depiction rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-relazioni-intervento.png"/>
+            </rdf:Description>
+        </hasImage>
         <admsapit:acronym>PI</admsapit:acronym>
         <admsapit:hasContributor rdf:resource="https://w3id.org/italia/data/public-organization/ISTAT"/>
         <admsapit:hasContributor rdf:resource="https://w3id.org/italia/data/public-organization/PCM-DIPE"/>
@@ -87,6 +137,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
     
 
 
@@ -216,9 +272,21 @@
     
 
 
+    <!-- http://xmlns.com/foaf/0.1/depiction -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/depiction"/>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/name -->
 
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/hasImage -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/hasImage"/>
     
 
 
@@ -1782,6 +1850,12 @@
     <!-- http://xmlns.com/foaf/0.1/Agent -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Image -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Image"/>
     
 
 

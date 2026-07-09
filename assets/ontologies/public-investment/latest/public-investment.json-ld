@@ -1,39 +1,39 @@
 [ {
   "@id" : "_:genid1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/onto/l0/Agent"
-    }, {
-      "@id" : "_:genid3"
-    } ]
+  "@type" : [ "http://xmlns.com/foaf/0.1/Image" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "CUP."
+  } ],
+  "http://xmlns.com/foaf/0.1/depiction" : [ {
+    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-cup.png"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid11"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/Agent"
   } ]
 }, {
   "@id" : "_:genid100",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_soggetto_richiedente_cup"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_generazione_cup"
   } ]
 }, {
   "@id" : "_:genid101",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_utente_richiedente_cup"
+    "@id" : "_:genid102"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
   "@id" : "_:genid102",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_utente_riferimento_cup"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_modifica_cup"
   } ]
 }, {
   "@id" : "_:genid103",
@@ -47,10 +47,70 @@
 }, {
   "@id" : "_:genid104",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_cup"
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_revoca_cup"
   } ]
 }, {
   "@id" : "_:genid105",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid106"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid106",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_revoca_delega_richiesta_cup"
+  } ]
+}, {
+  "@id" : "_:genid107",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_soggetto_richiedente_cup"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid108",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_utente_richiedente_cup"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid109",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_utente_riferimento_cup"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RO/holdsRoleInTime"
+  } ]
+}, {
+  "@id" : "_:genid110",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid111"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid111",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_cup"
+  } ]
+}, {
+  "@id" : "_:genid112",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_beneficiario_contributo"
@@ -59,16 +119,16 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid106",
+  "@id" : "_:genid113",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_natura_intervento"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid107"
+    "@id" : "_:genid114"
   } ]
 }, {
-  "@id" : "_:genid107",
+  "@id" : "_:genid114",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -76,7 +136,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid109",
+  "@id" : "_:genid116",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/infrastruttura_interessata_dal_progetto"
@@ -85,7 +145,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid110",
+  "@id" : "_:genid117",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_beneficiario_incentivo_unità_produttiva"
@@ -94,16 +154,16 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid111",
+  "@id" : "_:genid118",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_natura_intervento"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid112"
+    "@id" : "_:genid119"
   } ]
 }, {
-  "@id" : "_:genid112",
+  "@id" : "_:genid119",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -111,7 +171,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid114",
+  "@id" : "_:genid121",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_cup_master_collegato"
@@ -120,7 +180,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid115",
+  "@id" : "_:genid122",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ragione_collegamento_master"
@@ -129,21 +189,21 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid116",
+  "@id" : "_:genid123",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid117"
+    "@id" : "_:genid124"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid117",
+  "@id" : "_:genid124",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_cup_master_collegato"
   } ]
 }, {
-  "@id" : "_:genid118",
+  "@id" : "_:genid125",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ambito_di_delega"
@@ -152,7 +212,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid119",
+  "@id" : "_:genid126",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -162,7 +222,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid122",
+  "@id" : "_:genid129",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_delega_richiesta_cup"
@@ -171,7 +231,17 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid123",
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_completo_di_cup"
+    }, {
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_provvisorio_di_cup"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid130",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_delega_su_natura_intervento"
@@ -180,7 +250,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid124",
+  "@id" : "_:genid131",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_utente_riferimento_concentratore"
@@ -189,7 +259,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid125",
+  "@id" : "_:genid132",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_utente_riferimento_titolare_delegante"
@@ -198,7 +268,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid126",
+  "@id" : "_:genid133",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/avviso_accettazione_regole_delega"
@@ -207,7 +277,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid127",
+  "@id" : "_:genid134",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -225,31 +295,21 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid13",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/onto/COV/Organization"
-    }, {
-      "@id" : "https://w3id.org/italia/onto/CPV/Alive"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid134",
+  "@id" : "_:genid141",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid135"
+    "@id" : "_:genid142"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid135",
+  "@id" : "_:genid142",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_intervento_di_investimento_pubblico"
   } ]
 }, {
-  "@id" : "_:genid136",
+  "@id" : "_:genid143",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_amministrativo_progetto_cumulativo"
@@ -258,21 +318,21 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid137",
+  "@id" : "_:genid144",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid138"
+    "@id" : "_:genid145"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid139"
+    "@id" : "_:genid146"
   } ]
 }, {
-  "@id" : "_:genid138",
+  "@id" : "_:genid145",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_intervento_di_investimento_pubblico"
   } ]
 }, {
-  "@id" : "_:genid139",
+  "@id" : "_:genid146",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_cup"
@@ -281,7 +341,7 @@
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Cup_cumulativo"
   } ]
 }, {
-  "@id" : "_:genid140",
+  "@id" : "_:genid147",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/scopo_intervento_cumulativo"
@@ -290,25 +350,25 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid141",
+  "@id" : "_:genid148",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "_:genid158"
+      "@id" : "_:genid165"
     }, {
-      "@id" : "_:genid155"
+      "@id" : "_:genid162"
     }, {
-      "@id" : "_:genid152"
+      "@id" : "_:genid159"
     }, {
-      "@id" : "_:genid149"
+      "@id" : "_:genid156"
     }, {
-      "@id" : "_:genid146"
+      "@id" : "_:genid153"
     }, {
-      "@id" : "_:genid143"
+      "@id" : "_:genid150"
     } ]
   } ]
 }, {
-  "@id" : "_:genid143",
+  "@id" : "_:genid150",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -316,7 +376,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid146",
+  "@id" : "_:genid153",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -324,7 +384,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid149",
+  "@id" : "_:genid156",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -332,7 +392,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid152",
+  "@id" : "_:genid159",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -340,7 +400,19 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid155",
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_attivo_di_cup"
+    }, {
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_provvisorio_di_cup"
+    }, {
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_valido_di_Cup"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid162",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -348,7 +420,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid158",
+  "@id" : "_:genid165",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -356,16 +428,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid16",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/onto/COV/hasActivityType"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "_:genid160",
+  "@id" : "_:genid167",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/anno_pubblicazione_norma"
@@ -374,7 +437,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid161",
+  "@id" : "_:genid168",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/articolo_norma"
@@ -383,7 +446,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid162",
+  "@id" : "_:genid169",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/comma_articolo_norma"
@@ -392,7 +455,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid163",
+  "@id" : "_:genid170",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/numero_norma"
@@ -401,7 +464,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid164",
+  "@id" : "_:genid171",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/tipo_norma"
@@ -410,7 +473,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid165",
+  "@id" : "_:genid172",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_indirizzo_o_riferimento"
@@ -419,7 +482,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid166",
+  "@id" : "_:genid173",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_soggetto_titolare"
@@ -428,7 +491,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid167",
+  "@id" : "_:genid174",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_strumento_di_programmazione"
@@ -437,7 +500,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid168",
+  "@id" : "_:genid175",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_tipologia_copertura_finanziaria"
@@ -446,7 +509,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid169",
+  "@id" : "_:genid176",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#minCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -456,16 +519,7 @@
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_localizzazione"
   } ]
 }, {
-  "@id" : "_:genid17",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/onto/COV/hasActivityType"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "_:genid170",
+  "@id" : "_:genid177",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/anno_di_decisione"
@@ -474,7 +528,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid171",
+  "@id" : "_:genid178",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/avviso_legge_obiettivo"
@@ -483,7 +537,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid172",
+  "@id" : "_:genid179",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/costo_del_progetto"
@@ -492,7 +546,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid173",
+  "@id" : "_:genid180",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/importo_finanziamento_pubblico"
@@ -501,16 +555,16 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid174",
+  "@id" : "_:genid181",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_natura_intervento"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid175"
+    "@id" : "_:genid182"
   } ]
 }, {
-  "@id" : "_:genid175",
+  "@id" : "_:genid182",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -518,7 +572,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid177",
+  "@id" : "_:genid184",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/avviso_infrastruttura_singola_multipla"
@@ -527,7 +581,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid178",
+  "@id" : "_:genid185",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/oggetto_progettuale"
@@ -536,7 +590,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid179",
+  "@id" : "_:genid186",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_area_soggetto_accreditato"
@@ -545,16 +599,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid18",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "_:genid20"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid19"
-  } ]
-}, {
-  "@id" : "_:genid180",
+  "@id" : "_:genid187",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_categoria_soggetto_accreditato"
@@ -563,7 +608,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid181",
+  "@id" : "_:genid188",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_natura_giuridica_soggetto_accreditato"
@@ -572,7 +617,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid182",
+  "@id" : "_:genid189",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_sottocategoria_soggetto_accreditato"
@@ -581,21 +626,21 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid183",
+  "@id" : "_:genid190",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid184"
+    "@id" : "_:genid191"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/italia/onto/COV/Organization"
   } ]
 }, {
-  "@id" : "_:genid184",
+  "@id" : "_:genid191",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/italia/onto/RO/holdsRoleInTime"
   } ]
 }, {
-  "@id" : "_:genid185",
+  "@id" : "_:genid192",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -605,35 +650,30 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid188",
+  "@id" : "_:genid195",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid189"
+    "@id" : "_:genid196"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid190"
+    "@id" : "_:genid197"
   } ]
 }, {
-  "@id" : "_:genid189",
+  "@id" : "_:genid196",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_delegante_richiesta_cup"
   } ]
 }, {
-  "@id" : "_:genid19",
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_cup"
-  } ]
-}, {
-  "@id" : "_:genid190",
+  "@id" : "_:genid197",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_delegato_richiesta_cup"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid191"
+    "@id" : "_:genid198"
   } ]
 }, {
-  "@id" : "_:genid191",
+  "@id" : "_:genid198",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
@@ -643,7 +683,26 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid194",
+  "@id" : "_:genid2",
+  "@type" : [ "http://xmlns.com/foaf/0.1/Image" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "Natura di intervento."
+  } ],
+  "http://xmlns.com/foaf/0.1/depiction" : [ {
+    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-natura-intervento.png"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/COV/Organization"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/CPV/Alive"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid201",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_beneficiario_partecipazione_conferimento"
@@ -652,7 +711,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid195",
+  "@id" : "_:genid202",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_finalità_partecipazione_conferimento"
@@ -661,16 +720,16 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid196",
+  "@id" : "_:genid203",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_natura_intervento"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid197"
+    "@id" : "_:genid204"
   } ]
 }, {
-  "@id" : "_:genid197",
+  "@id" : "_:genid204",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -678,65 +737,18 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid199",
+  "@id" : "_:genid206",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid200"
+    "@id" : "_:genid207"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid20",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_intervento_di_investimento_pubblico"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Realizzazione_di_lavori_pubblici"
-  } ]
-}, {
-  "@id" : "_:genid200",
+  "@id" : "_:genid207",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_stato_di_atto_di_finanziamento"
-  } ]
-}, {
-  "@id" : "_:genid201",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid202"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Storia_di_cup"
-  } ]
-}, {
-  "@id" : "_:genid202",
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/onto/l0/hasMember"
-  } ]
-}, {
-  "@id" : "_:genid203",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid204"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "_:genid204",
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_stato_di_cup"
-  } ]
-}, {
-  "@id" : "_:genid205",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Strumento_di_programmazione_libero"
-    }, {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Tipo_strumento_di_programmazione"
-    } ]
   } ]
 }, {
   "@id" : "_:genid208",
@@ -745,21 +757,12 @@
     "@id" : "_:genid209"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Storia_di_cup"
   } ]
 }, {
   "@id" : "_:genid209",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/prevede_subinvestimento_pnrr"
-  } ]
-}, {
-  "@id" : "_:genid21",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "_:genid23"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid22"
+    "@id" : "https://w3id.org/italia/onto/l0/hasMember"
   } ]
 }, {
   "@id" : "_:genid210",
@@ -773,48 +776,31 @@
 }, {
   "@id" : "_:genid211",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/prevede_target_pnrr"
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_stato_di_cup"
   } ]
 }, {
   "@id" : "_:genid212",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_target_pnrr"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "_:genid213",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid214"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "_:genid214",
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_target_pnrr_di_progetto"
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Strumento_di_programmazione_libero"
+    }, {
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Tipo_strumento_di_programmazione"
+    } ]
   } ]
 }, {
   "@id" : "_:genid215",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/data_raggiungimento_target_di_progetto"
+    "@id" : "_:genid216"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
   "@id" : "_:genid216",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/valore_target_di_progetto"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/prevede_subinvestimento_pnrr"
   } ]
 }, {
   "@id" : "_:genid217",
@@ -823,15 +809,70 @@
     "@id" : "_:genid218"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Soggetto_accreditato_sistema_cup"
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
   "@id" : "_:genid218",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/onto/COV/hasSupportUnit"
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/prevede_target_pnrr"
   } ]
 }, {
   "@id" : "_:genid219",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_target_pnrr"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid220",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid221"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid221",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_target_pnrr_di_progetto"
+  } ]
+}, {
+  "@id" : "_:genid222",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/data_raggiungimento_target_di_progetto"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid223",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/valore_target_di_progetto"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid224",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid225"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Soggetto_accreditato_sistema_cup"
+  } ]
+}, {
+  "@id" : "_:genid225",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/COV/hasSupportUnit"
+  } ]
+}, {
+  "@id" : "_:genid226",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_autorizzazione_cup"
@@ -840,60 +881,64 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid22",
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_cup"
-  } ]
-}, {
-  "@id" : "_:genid220",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "_:genid225"
-    }, {
-      "@id" : "_:genid222"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid222",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid223"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/italia/onto/CPV/Alive"
-  } ]
-}, {
-  "@id" : "_:genid223",
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/onto/RO/holdsRoleInTime"
-  } ]
-}, {
-  "@id" : "_:genid225",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid226"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Unità_organizzativa"
-  } ]
-}, {
-  "@id" : "_:genid226",
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/onto/COV/holdEmployment"
-  } ]
-}, {
   "@id" : "_:genid227",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "_:genid231"
+      "@id" : "_:genid232"
     }, {
       "@id" : "_:genid229"
     } ]
   } ]
 }, {
   "@id" : "_:genid229",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid230"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Alive"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/COV/hasActivityType"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid230",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RO/holdsRoleInTime"
+  } ]
+}, {
+  "@id" : "_:genid232",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid233"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Unità_organizzativa"
+  } ]
+}, {
+  "@id" : "_:genid233",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/COV/holdEmployment"
+  } ]
+}, {
+  "@id" : "_:genid234",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid238"
+    }, {
+      "@id" : "_:genid236"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid236",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -906,16 +951,7 @@
     "@id" : "https://w3id.org/italia/onto/SM/hasOnlineContactPoint"
   } ]
 }, {
-  "@id" : "_:genid23",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_intervento_di_investimento_pubblico"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Acquisto_o_realizzazione_studio_o_progettazione"
-  } ]
-}, {
-  "@id" : "_:genid231",
+  "@id" : "_:genid238",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -928,24 +964,33 @@
     "@id" : "https://w3id.org/italia/onto/SM/hasOnlineContactPoint"
   } ]
 }, {
-  "@id" : "_:genid232",
+  "@id" : "_:genid239",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid233"
+    "@id" : "_:genid240"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/italia/onto/l0/Agent"
   } ]
 }, {
-  "@id" : "_:genid233",
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/COV/hasActivityType"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid240",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/italia/onto/RO/holdsRoleInTime"
   } ]
 }, {
-  "@id" : "_:genid234",
+  "@id" : "_:genid241",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid238"
+    "@id" : "_:genid245"
   } ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -957,57 +1002,57 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid238",
+  "@id" : "_:genid245",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid239"
+    "@id" : "_:genid246"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Storia_di_cup"
   } ]
 }, {
-  "@id" : "_:genid239",
+  "@id" : "_:genid246",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/italia/onto/l0/hasLastMember"
   } ]
 }, {
-  "@id" : "_:genid24",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_intervento_di_investimento_pubblico"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Realizzazione_di_lavori_pubblici"
-  } ]
-}, {
-  "@id" : "_:genid240",
+  "@id" : "_:genid247",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid245"
+    "@id" : "_:genid252"
   } ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "https://w3id.org/italia/onto/COV/Organization"
     }, {
-      "@id" : "_:genid242"
+      "@id" : "_:genid249"
     } ]
   } ]
 }, {
-  "@id" : "_:genid242",
+  "@id" : "_:genid249",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid243"
+    "@id" : "_:genid250"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid243",
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid27"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "_:genid250",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_beneficiario_contributo"
   } ]
 }, {
-  "@id" : "_:genid245",
+  "@id" : "_:genid252",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/onto/COV/hasActivityType"
@@ -1016,20 +1061,20 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid246",
+  "@id" : "_:genid253",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid252"
+    "@id" : "_:genid259"
   } ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
       "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Acquisto_di_beni"
     }, {
-      "@id" : "_:genid248"
+      "@id" : "_:genid255"
     } ]
   } ]
 }, {
-  "@id" : "_:genid248",
+  "@id" : "_:genid255",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -1039,16 +1084,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid25",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid26"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "_:genid252",
+  "@id" : "_:genid259",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/partenariato_pubblico-privato_e_forme_speciali_partenariato"
@@ -1057,10 +1093,15 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid253",
+  "@id" : "_:genid26",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_cup"
+  } ]
+}, {
+  "@id" : "_:genid260",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid256"
+    "@id" : "_:genid263"
   } ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -1070,7 +1111,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid256",
+  "@id" : "_:genid263",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/finanza_di_progetto"
@@ -1079,10 +1120,10 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid257",
+  "@id" : "_:genid264",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid260"
+    "@id" : "_:genid267"
   } ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -1092,12 +1133,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid26",
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_utente_riferimento_titolare_delegante"
-  } ]
-}, {
-  "@id" : "_:genid260",
+  "@id" : "_:genid267",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/tipologia_operazione_partenariato"
@@ -1106,7 +1142,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid261",
+  "@id" : "_:genid268",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Atto"
@@ -1138,13 +1174,13 @@
   "@id" : "_:genid27",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_natura_intervento"
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_intervento_di_investimento_pubblico"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid28"
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Realizzazione_di_lavori_pubblici"
   } ]
 }, {
-  "@id" : "_:genid272",
+  "@id" : "_:genid279",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Codice_unico_di_progetto"
@@ -1159,10 +1195,19 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid276",
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid30"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid29"
+  } ]
+}, {
+  "@id" : "_:genid283",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid279"
+    "@id" : "_:genid286"
   } ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -1172,29 +1217,21 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid279",
+  "@id" : "_:genid286",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid280"
+    "@id" : "_:genid287"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Soggetto_accreditato_sistema_cup"
   } ]
 }, {
-  "@id" : "_:genid28",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_di_beni"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid280",
+  "@id" : "_:genid287",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/italia/onto/RO/holdsRoleInTime"
   } ]
 }, {
-  "@id" : "_:genid281",
+  "@id" : "_:genid288",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_di_cup"
@@ -1219,7 +1256,12 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid290",
+  "@id" : "_:genid29",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_cup"
+  } ]
+}, {
+  "@id" : "_:genid297",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_di_atto_di_finanziamento"
@@ -1234,22 +1276,40 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid294",
+  "@id" : "_:genid3",
+  "@type" : [ "http://xmlns.com/foaf/0.1/Image" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "Atto."
+  } ],
+  "http://xmlns.com/foaf/0.1/depiction" : [ {
+    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-atto.png"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_intervento_di_investimento_pubblico"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Acquisto_o_realizzazione_studio_o_progettazione"
+  } ]
+}, {
+  "@id" : "_:genid301",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Tipologia_di_intervento"
   } ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "_:genid302"
+      "@id" : "_:genid309"
     }, {
-      "@id" : "_:genid299"
+      "@id" : "_:genid306"
     }, {
-      "@id" : "_:genid296"
+      "@id" : "_:genid303"
     } ]
   } ]
 }, {
-  "@id" : "_:genid296",
+  "@id" : "_:genid303",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -1257,7 +1317,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid299",
+  "@id" : "_:genid306",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -1265,25 +1325,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid4"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/italia/onto/l0/Agent"
-  } ]
-}, {
-  "@id" : "_:genid30",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/bene_acquistato"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-  } ]
-}, {
-  "@id" : "_:genid302",
+  "@id" : "_:genid309",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -1291,7 +1333,16 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid304",
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_intervento_di_investimento_pubblico"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Realizzazione_di_lavori_pubblici"
+  } ]
+}, {
+  "@id" : "_:genid311",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_provvisorio_di_cup"
@@ -1300,24 +1351,24 @@
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_stato_di_cup"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid305"
+    "@id" : "_:genid312"
   } ]
 }, {
-  "@id" : "_:genid305",
+  "@id" : "_:genid312",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid306"
+    "@id" : "_:genid313"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid306",
+  "@id" : "_:genid313",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_cup_provvisorio_collegato"
   } ]
 }, {
-  "@id" : "_:genid307",
+  "@id" : "_:genid314",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/italia/onto/COV/PublicOrganization"
@@ -1329,42 +1380,33 @@
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Soggetto_concentratore"
   } ]
 }, {
-  "@id" : "_:genid308",
+  "@id" : "_:genid315",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Soggetto_richiedente_cup"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid309"
+    "@id" : "_:genid316"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid310"
+    "@id" : "_:genid317"
   } ]
 }, {
-  "@id" : "_:genid309",
+  "@id" : "_:genid316",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/italia/onto/RO/holdsRoleInTime"
   } ]
 }, {
-  "@id" : "_:genid31",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/opera_infrastruttura_progetto"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-  } ]
-}, {
-  "@id" : "_:genid310",
+  "@id" : "_:genid317",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/onto/COV/hasSupportUnit"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid311"
+    "@id" : "_:genid318"
   } ]
 }, {
-  "@id" : "_:genid311",
+  "@id" : "_:genid318",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/onto/COV/holdEmployment"
@@ -1373,33 +1415,42 @@
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Utente_richiedente_cup"
   } ]
 }, {
-  "@id" : "_:genid312",
+  "@id" : "_:genid319",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Soggetto_titolare_progetto_investimento"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid313"
+    "@id" : "_:genid320"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid314"
+    "@id" : "_:genid321"
   } ]
 }, {
-  "@id" : "_:genid313",
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid33"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid320",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/italia/onto/RO/holdsRoleInTime"
   } ]
 }, {
-  "@id" : "_:genid314",
+  "@id" : "_:genid321",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/onto/COV/hasSupportUnit"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid315"
+    "@id" : "_:genid322"
   } ]
 }, {
-  "@id" : "_:genid315",
+  "@id" : "_:genid322",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/onto/COV/holdEmployment"
@@ -1408,24 +1459,24 @@
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Utente_riferimento_cup"
   } ]
 }, {
-  "@id" : "_:genid316",
+  "@id" : "_:genid323",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid318"
+    "@id" : "_:genid325"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid317"
+    "@id" : "_:genid324"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_cancellato_di_cup"
   } ]
 }, {
-  "@id" : "_:genid317",
+  "@id" : "_:genid324",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/italia/onto/l0/directlyPrecedes"
   } ]
 }, {
-  "@id" : "_:genid318",
+  "@id" : "_:genid325",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -1435,33 +1486,29 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid32",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_tipologia_intervento"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid33"
-  } ]
-}, {
-  "@id" : "_:genid321",
+  "@id" : "_:genid328",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_attivo_di_cup"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid322"
+    "@id" : "_:genid329"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid323"
+    "@id" : "_:genid330"
   } ]
 }, {
-  "@id" : "_:genid322",
+  "@id" : "_:genid329",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/italia/onto/l0/directlyPrecedes"
   } ]
 }, {
-  "@id" : "_:genid323",
+  "@id" : "_:genid33",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_utente_riferimento_titolare_delegante"
+  } ]
+}, {
+  "@id" : "_:genid330",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -1471,7 +1518,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid326",
+  "@id" : "_:genid333",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -1489,13 +1536,16 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid33",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#complementOf" : [ {
-    "@id" : "_:genid34"
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_natura_intervento"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid35"
   } ]
 }, {
-  "@id" : "_:genid333",
+  "@id" : "_:genid340",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -1509,7 +1559,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid338",
+  "@id" : "_:genid345",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -1535,19 +1585,15 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid34",
+  "@id" : "_:genid35",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "_:genid42"
-    }, {
-      "@id" : "_:genid39"
-    }, {
-      "@id" : "_:genid36"
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_di_beni"
     } ]
   } ]
 }, {
-  "@id" : "_:genid349",
+  "@id" : "_:genid356",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -1559,7 +1605,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid353",
+  "@id" : "_:genid360",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -1581,15 +1627,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid36",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_studio_o_progettazione"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid362",
+  "@id" : "_:genid369",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -1601,25 +1639,34 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid366",
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/bene_acquistato"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid373",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "_:genid383"
+      "@id" : "_:genid390"
     }, {
-      "@id" : "_:genid380"
+      "@id" : "_:genid387"
     }, {
-      "@id" : "_:genid377"
+      "@id" : "_:genid384"
     }, {
-      "@id" : "_:genid374"
+      "@id" : "_:genid381"
     }, {
-      "@id" : "_:genid371"
+      "@id" : "_:genid378"
     }, {
-      "@id" : "_:genid368"
+      "@id" : "_:genid375"
     } ]
   } ]
 }, {
-  "@id" : "_:genid368",
+  "@id" : "_:genid375",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -1627,7 +1674,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid371",
+  "@id" : "_:genid378",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -1635,7 +1682,16 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid374",
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/opera_infrastruttura_progetto"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid381",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -1643,7 +1699,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid377",
+  "@id" : "_:genid384",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -1651,7 +1707,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid380",
+  "@id" : "_:genid387",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -1659,7 +1715,16 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid383",
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_tipologia_intervento"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid40"
+  } ]
+}, {
+  "@id" : "_:genid390",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -1667,19 +1732,19 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid385",
+  "@id" : "_:genid392",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "_:genid393"
+      "@id" : "_:genid400"
     }, {
-      "@id" : "_:genid390"
+      "@id" : "_:genid397"
     }, {
-      "@id" : "_:genid387"
+      "@id" : "_:genid394"
     } ]
   } ]
 }, {
-  "@id" : "_:genid387",
+  "@id" : "_:genid394",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -1687,36 +1752,30 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid39",
+  "@id" : "_:genid397",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
       "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_progetto_di_ricerca"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid390",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_progetto_di_ricerca"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid393",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_corso_di_formazione"
     } ]
   } ]
 }, {
   "@id" : "_:genid4",
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/onto/RO/holdsRoleInTime"
+  "@type" : [ "http://xmlns.com/foaf/0.1/Image" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "Progetto."
+  } ],
+  "http://xmlns.com/foaf/0.1/depiction" : [ {
+    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-progetto.png"
   } ]
 }, {
-  "@id" : "_:genid42",
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "_:genid41"
+  } ]
+}, {
+  "@id" : "_:genid400",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -1724,41 +1783,32 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid44",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/infrastruttura_di_progetto"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid49"
+    }, {
+      "@id" : "_:genid46"
+    }, {
+      "@id" : "_:genid43"
+    } ]
   } ]
 }, {
-  "@id" : "_:genid45",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/servizio_acquistato_realizzato"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_studio_o_progettazione"
+    } ]
   } ]
 }, {
   "@id" : "_:genid46",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "_:genid52"
-    }, {
-      "@id" : "_:genid48"
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_progetto_di_ricerca"
     } ]
-  } ]
-}, {
-  "@id" : "_:genid48",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_tipologia_intervento"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid49"
   } ]
 }, {
   "@id" : "_:genid49",
@@ -1769,16 +1819,79 @@
     } ]
   } ]
 }, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://xmlns.com/foaf/0.1/Image" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "Intervento."
+  } ],
+  "http://xmlns.com/foaf/0.1/depiction" : [ {
+    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-intervento.png"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/infrastruttura_di_progetto"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
   "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/servizio_acquistato_realizzato"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid59"
+    }, {
+      "@id" : "_:genid55"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_tipologia_intervento"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid56"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_corso_di_formazione"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid59",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_natura_intervento"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid53"
+    "@id" : "_:genid60"
   } ]
 }, {
-  "@id" : "_:genid53",
+  "@id" : "_:genid6",
+  "@type" : [ "http://xmlns.com/foaf/0.1/Image" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "Soggetto."
+  } ],
+  "http://xmlns.com/foaf/0.1/depiction" : [ {
+    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-soggetto.png"
+  } ]
+}, {
+  "@id" : "_:genid60",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -1786,7 +1899,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid55",
+  "@id" : "_:genid62",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_ente_erogatore_corso_di_formazione"
@@ -1795,7 +1908,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "_:genid56",
+  "@id" : "_:genid63",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/denominazione_corso_di_formazione"
@@ -1804,7 +1917,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid57",
+  "@id" : "_:genid64",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/modalità_corso_di_formazione"
@@ -1813,7 +1926,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid58",
+  "@id" : "_:genid65",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/obiettivo_corso_di_formazione"
@@ -1822,7 +1935,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
-  "@id" : "_:genid59",
+  "@id" : "_:genid66",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -1836,36 +1949,35 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid6",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_completo_di_cup"
-    }, {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_provvisorio_di_cup"
-    } ]
+  "@id" : "_:genid7",
+  "@type" : [ "http://xmlns.com/foaf/0.1/Image" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "Relazioni intervento."
+  } ],
+  "http://xmlns.com/foaf/0.1/depiction" : [ {
+    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-relazioni-intervento.png"
   } ]
 }, {
-  "@id" : "_:genid64",
+  "@id" : "_:genid71",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "_:genid70"
+      "@id" : "_:genid77"
     }, {
-      "@id" : "_:genid66"
+      "@id" : "_:genid73"
     } ]
   } ]
 }, {
-  "@id" : "_:genid66",
+  "@id" : "_:genid73",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_tipologia_intervento"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid67"
+    "@id" : "_:genid74"
   } ]
 }, {
-  "@id" : "_:genid67",
+  "@id" : "_:genid74",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -1873,55 +1985,10 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid70",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_natura_intervento"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid71"
-  } ]
-}, {
-  "@id" : "_:genid71",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_di_servizi"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid73",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_ente_realizzatore_progetto_di_ricerca"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "_:genid74",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/denominazione_progetto_di_ricerca"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-  } ]
-}, {
-  "@id" : "_:genid75",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "_:genid81"
-    }, {
-      "@id" : "_:genid77"
-    } ]
-  } ]
-}, {
   "@id" : "_:genid77",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_tipologia_intervento"
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_natura_intervento"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "_:genid78"
@@ -1931,20 +1998,75 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_studio_o_progettazione"
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_di_servizi"
     } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/l0/Agent"
+    }, {
+      "@id" : "_:genid10"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_ente_realizzatore_progetto_di_ricerca"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
   "@id" : "_:genid81",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_natura_intervento"
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/denominazione_progetto_di_ricerca"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid82"
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
   "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid88"
+    }, {
+      "@id" : "_:genid84"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_tipologia_intervento"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid85"
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_studio_o_progettazione"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_natura_intervento"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid89"
+  } ]
+}, {
+  "@id" : "_:genid89",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -1952,80 +2074,13 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid84",
+  "@id" : "_:genid91",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/data_atto"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-  } ]
-}, {
-  "@id" : "_:genid85",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid86"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "_:genid86",
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_cancellazione_cup"
-  } ]
-}, {
-  "@id" : "_:genid87",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid88"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "_:genid88",
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_chiusura_cup"
-  } ]
-}, {
-  "@id" : "_:genid89",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_delegante_richiesta_cup"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "_:genid9",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_attivo_di_cup"
-    }, {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_provvisorio_di_cup"
-    }, {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_valido_di_Cup"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid90",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_delegato_richiesta_cup"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "_:genid91",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_utente_conferente_delega"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
   "@id" : "_:genid92",
@@ -2039,7 +2094,7 @@
 }, {
   "@id" : "_:genid93",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_generazione_cup"
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_cancellazione_cup"
   } ]
 }, {
   "@id" : "_:genid94",
@@ -2053,35 +2108,43 @@
 }, {
   "@id" : "_:genid95",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_modifica_cup"
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_chiusura_cup"
   } ]
 }, {
   "@id" : "_:genid96",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid97"
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_delegante_richiesta_cup"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
   "@id" : "_:genid97",
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_revoca_cup"
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_delegato_richiesta_cup"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
   "@id" : "_:genid98",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid99"
+    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_utente_conferente_delega"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
   "@id" : "_:genid99",
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_revoca_delega_richiesta_cup"
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid100"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
   "@id" : "http://dati.gov.it/onto/dcatapit#Agent",
@@ -2092,6 +2155,9 @@
 }, {
   "@id" : "http://dati.gov.it/onto/dcatapit#Standard",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/Standard",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
@@ -2186,6 +2252,12 @@
   "@id" : "http://xmlns.com/foaf/0.1/Agent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
+  "@id" : "http://xmlns.com/foaf/0.1/Image",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/depiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://xmlns.com/foaf/0.1/name",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -2201,17 +2273,17 @@
   } ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "it",
-    "@value" : "L’ontologia è il prodotto dell'analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell'ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell'ambito dell'Impegno C6 del 6° Piano d'Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata alla rete OntoPiA ed è pubblicata nel Catalogo Nazionale dei dati semantici (schema.gov.it)."
+    "@value" : "L’ontologia è il prodotto dell'analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell'ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell'ambito dell'Impegno C6 del 6° Piano d'Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata con le ontologie CORE della rete semantica del Catalogo Nazionale dei dati (schema.gov.it)."
   }, {
     "@language" : "en",
-    "@value" : "This ontology is the product of the semantic analysis of the Unique Project Code (CUP) and of the information assets of the OpenCUP portal. It is developed by the Department for Programming and Coordination of Economic Policy (DIPE) of the Presidency of the Council of Ministers, with the semantic stewardship of ISTAT and in coordination with the Department for Digital Transformation (DTD), within commitment C6 of the 6th National Action Plan for the Open Government Partnership (OGP) 2024–2026. It is aligned with the OntoPiA network and published in the National Catalog of Semantic Data (schema.gov.it)."
+    "@value" : "This ontology results from the semantic analysis of the Unique Project Code (CUP) and the information assets of the OpenCUP portal. It has been developed by the Department for Programming and Coordination of Economic Policy (DIPE) of the Presidency of the Council of Ministers, with semantic stewardship by ISTAT and in coordination with the Department for Digital Transformation (DTD), within Commitment C6 of the 6th National Action Plan for the Open Government Partnership (OGP) 2024–2026. It is aligned with the CORE ontologies of the National Data Catalogue semantic network (schema.gov.it)."
   } ],
   "http://purl.org/dc/terms/identifier" : [ {
     "@value" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment"
   } ],
   "http://purl.org/dc/terms/issued" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
-    "@value" : "2026-07-08"
+    "@value" : "2026-07-07"
   } ],
   "http://purl.org/dc/terms/language" : [ {
     "@id" : "http://publications.europa.eu/resource/authority/language/ENG"
@@ -2220,7 +2292,7 @@
   } ],
   "http://purl.org/dc/terms/modified" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
-    "@value" : "2026-07-08"
+    "@value" : "2026-07-07"
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
     "@id" : "https://w3id.org/italia/data/public-organization/PCM-DIPE"
@@ -2243,10 +2315,10 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "it",
-    "@value" : "L’ontologia è il prodotto dell'analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell'ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell'ambito dell'Impegno C6 del 6° Piano d'Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata alla rete OntoPiA ed è pubblicata nel Catalogo Nazionale dei dati semantici (schema.gov.it)."
+    "@value" : "L’ontologia è il prodotto dell'analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell'ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell'ambito dell'Impegno C6 del 6° Piano d'Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata con le ontologie CORE della rete semantica del Catalogo Nazionale dei dati (schema.gov.it)."
   }, {
     "@language" : "en",
-    "@value" : "This ontology is the product of the semantic analysis of the Unique Project Code (CUP) and of the information assets of the OpenCUP portal. It is developed by the Department for Programming and Coordination of Economic Policy (DIPE) of the Presidency of the Council of Ministers, with the semantic stewardship of ISTAT and in coordination with the Department for Digital Transformation (DTD), within commitment C6 of the 6th National Action Plan for the Open Government Partnership (OGP) 2024–2026. It is aligned with the OntoPiA network and published in the National Catalog of Semantic Data (schema.gov.it)."
+    "@value" : "This ontology results from the semantic analysis of the Unique Project Code (CUP) and the information assets of the OpenCUP portal. It has been developed by the Department for Programming and Coordination of Economic Policy (DIPE) of the Presidency of the Council of Ministers, with semantic stewardship by ISTAT and in coordination with the Department for Digital Transformation (DTD), within Commitment C6 of the 6th National Action Plan for the Open Government Partnership (OGP) 2024–2026. It is aligned with the CORE ontologies of the National Data Catalogue semantic network (schema.gov.it)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -2285,6 +2357,21 @@
     "@id" : "http://publications.europa.eu/resource/authority/data-theme/ECON"
   }, {
     "@id" : "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+  } ],
+  "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/hasImage" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
   } ],
   "https://w3id.org/italia/onto/ADMS/acronym" : [ {
     "@value" : "PI"
@@ -2361,12 +2448,12 @@
     "@value" : "Purchase of goods"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid31"
+    "@id" : "_:genid38"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid27"
+    "@id" : "_:genid34"
   }, {
-    "@id" : "_:genid30"
+    "@id" : "_:genid37"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Acquisto_o_realizzazione_altro_servizio",
@@ -2386,12 +2473,12 @@
     "@value" : "Purchase or provision of another service"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid44"
+    "@id" : "_:genid51"
   }, {
-    "@id" : "_:genid45"
+    "@id" : "_:genid52"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid32"
+    "@id" : "_:genid39"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Acquisto_o_realizzazione_corso_di_formazione",
@@ -2411,16 +2498,16 @@
     "@value" : "Purchase or completion of a training course"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid56"
+    "@id" : "_:genid63"
   }, {
-    "@id" : "_:genid57"
+    "@id" : "_:genid64"
   }, {
-    "@id" : "_:genid58"
+    "@id" : "_:genid65"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid46"
+    "@id" : "_:genid53"
   }, {
-    "@id" : "_:genid55"
+    "@id" : "_:genid62"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Acquisto_o_realizzazione_di_servizi",
@@ -2440,7 +2527,7 @@
     "@value" : "Purchase or provision of services"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid59"
+    "@id" : "_:genid66"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Acquisto_o_realizzazione_progetto_di_ricerca",
@@ -2462,12 +2549,12 @@
     "@value" : "Acquisto o realizzazione progetto di ricerca"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid74"
+    "@id" : "_:genid81"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid64"
+    "@id" : "_:genid71"
   }, {
-    "@id" : "_:genid73"
+    "@id" : "_:genid80"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Acquisto_o_realizzazione_studio_o_progettazione",
@@ -2487,7 +2574,7 @@
     "@value" : "Purchase or implementation of study or design"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid75"
+    "@id" : "_:genid82"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Area_di_intervento",
@@ -2524,7 +2611,7 @@
     "@value" : "Atto"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid84"
+    "@id" : "_:genid91"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Atto_amministrativo_progetto_cumulativo",
@@ -2578,7 +2665,7 @@
     "@value" : "CUP Cancellation Act"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid85"
+    "@id" : "_:genid92"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Atto_chiusura_cup",
@@ -2598,7 +2685,7 @@
     "@value" : "Cup closing act"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid87"
+    "@id" : "_:genid94"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Atto_delega_richiesta_cup",
@@ -2618,11 +2705,11 @@
     "@value" : "Delegation deed for CUP request"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid89"
+    "@id" : "_:genid96"
   }, {
-    "@id" : "_:genid90"
+    "@id" : "_:genid97"
   }, {
-    "@id" : "_:genid91"
+    "@id" : "_:genid98"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Atto_finanziamento_investimento_pubblico",
@@ -2659,7 +2746,7 @@
     "@value" : "Generation Cup Act"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid92"
+    "@id" : "_:genid99"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Atto_modifica_cup",
@@ -2679,7 +2766,7 @@
     "@value" : "CUP Amendment Act"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid94"
+    "@id" : "_:genid101"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Atto_revoca_cup",
@@ -2699,7 +2786,7 @@
     "@value" : "CUP revocation act"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid96"
+    "@id" : "_:genid103"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Atto_revoca_delega_richiesta_cup",
@@ -2719,7 +2806,7 @@
     "@value" : "Revocation of delegation request for CUP"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid98"
+    "@id" : "_:genid105"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Categoria_di_intervento",
@@ -2756,13 +2843,13 @@
     "@value" : "Unique project code"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid100"
+    "@id" : "_:genid107"
   }, {
-    "@id" : "_:genid101"
+    "@id" : "_:genid108"
   }, {
-    "@id" : "_:genid102"
+    "@id" : "_:genid109"
   }, {
-    "@id" : "_:genid103"
+    "@id" : "_:genid110"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Concessione_di_contributi_ad_altri_soggetti",
@@ -2782,12 +2869,12 @@
     "@value" : "Granting of contributions to other entities"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid109"
+    "@id" : "_:genid116"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid105"
+    "@id" : "_:genid112"
   }, {
-    "@id" : "_:genid106"
+    "@id" : "_:genid113"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Concessione_di_incentivi_ad_unità_produttive",
@@ -2807,9 +2894,9 @@
     "@value" : "Granting incentives to production units"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid110"
+    "@id" : "_:genid117"
   }, {
-    "@id" : "_:genid111"
+    "@id" : "_:genid118"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Cup_collegato_a_master",
@@ -2829,7 +2916,7 @@
     "@value" : "Cup connected to master"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid114"
+    "@id" : "_:genid121"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Cup_cumulativo",
@@ -2866,10 +2953,10 @@
     "@value" : "Cup master"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid116"
+    "@id" : "_:genid123"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid115"
+    "@id" : "_:genid122"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Delega_parziale",
@@ -2889,7 +2976,7 @@
     "@value" : "Partial delegation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid118"
+    "@id" : "_:genid125"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Delega_totale"
@@ -2915,17 +3002,17 @@
     "@id" : "https://w3id.org/italia/onto/TI/TimeIndexedEvent"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid119"
-  }, {
-    "@id" : "_:genid122"
-  }, {
-    "@id" : "_:genid123"
-  }, {
-    "@id" : "_:genid124"
-  }, {
-    "@id" : "_:genid125"
-  }, {
     "@id" : "_:genid126"
+  }, {
+    "@id" : "_:genid129"
+  }, {
+    "@id" : "_:genid130"
+  }, {
+    "@id" : "_:genid131"
+  }, {
+    "@id" : "_:genid132"
+  }, {
+    "@id" : "_:genid133"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Delega_totale",
@@ -2962,9 +3049,9 @@
     "@value" : "Public investment intervention"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid127"
-  }, {
     "@id" : "_:genid134"
+  }, {
+    "@id" : "_:genid141"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Intervento_di_investimento_pubblico_cumulativo",
@@ -2986,12 +3073,12 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Concessione_di_contributi_ad_altri_soggetti"
   }, {
-    "@id" : "_:genid140"
+    "@id" : "_:genid147"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid136"
+    "@id" : "_:genid143"
   }, {
-    "@id" : "_:genid137"
+    "@id" : "_:genid144"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Natura_di_intervento",
@@ -3011,7 +3098,7 @@
     "@value" : "Nature of intervention"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid141"
+    "@id" : "_:genid148"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Norma_di_finanziamento",
@@ -3031,15 +3118,15 @@
     "@value" : "Norma di finanziamento"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid160"
+    "@id" : "_:genid167"
   }, {
-    "@id" : "_:genid161"
+    "@id" : "_:genid168"
   }, {
-    "@id" : "_:genid162"
+    "@id" : "_:genid169"
   }, {
-    "@id" : "_:genid163"
+    "@id" : "_:genid170"
   }, {
-    "@id" : "_:genid164"
+    "@id" : "_:genid171"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Progetto_di_investimento_pubblico",
@@ -3059,23 +3146,23 @@
     "@value" : "Public investment project"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid165"
-  }, {
-    "@id" : "_:genid166"
-  }, {
-    "@id" : "_:genid167"
-  }, {
-    "@id" : "_:genid168"
-  }, {
-    "@id" : "_:genid169"
-  }, {
-    "@id" : "_:genid170"
-  }, {
-    "@id" : "_:genid171"
-  }, {
     "@id" : "_:genid172"
   }, {
     "@id" : "_:genid173"
+  }, {
+    "@id" : "_:genid174"
+  }, {
+    "@id" : "_:genid175"
+  }, {
+    "@id" : "_:genid176"
+  }, {
+    "@id" : "_:genid177"
+  }, {
+    "@id" : "_:genid178"
+  }, {
+    "@id" : "_:genid179"
+  }, {
+    "@id" : "_:genid180"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Realizzazione_di_lavori_pubblici",
@@ -3095,12 +3182,12 @@
     "@value" : "Realizzazione di lavori pubblici"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid178"
+    "@id" : "_:genid185"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid174"
+    "@id" : "_:genid181"
   }, {
-    "@id" : "_:genid177"
+    "@id" : "_:genid184"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Settore_di_intervento",
@@ -3140,13 +3227,13 @@
     "@id" : "https://w3id.org/italia/onto/COV/Organization"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid179"
+    "@id" : "_:genid186"
   }, {
-    "@id" : "_:genid180"
+    "@id" : "_:genid187"
   }, {
-    "@id" : "_:genid181"
+    "@id" : "_:genid188"
   }, {
-    "@id" : "_:genid182"
+    "@id" : "_:genid189"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Soggetto_attuatore_interventi_PNRR",
@@ -3166,7 +3253,7 @@
     "@value" : "Soggetto attuatore interventi PNRR"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid183"
+    "@id" : "_:genid190"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Soggetto_concentratore",
@@ -3203,7 +3290,7 @@
     "@value" : "Soggetto richiedente cup"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid185"
+    "@id" : "_:genid192"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Soggetto_titolare_progetto_investimento",
@@ -3223,7 +3310,7 @@
     "@value" : "Soggetto titolare progetto investimento"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid188"
+    "@id" : "_:genid195"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Sottoscrizione_iniziale_o_aumento_di_capitale",
@@ -3243,11 +3330,11 @@
     "@value" : "Sottoscrizione iniziale o aumento di capitale"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid194"
+    "@id" : "_:genid201"
   }, {
-    "@id" : "_:genid195"
+    "@id" : "_:genid202"
   }, {
-    "@id" : "_:genid196"
+    "@id" : "_:genid203"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Sottosettore_di_intervento",
@@ -3392,7 +3479,7 @@
     "@id" : "https://w3id.org/italia/onto/TI/TimeIndexedEvent"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid199"
+    "@id" : "_:genid206"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_di_coerenza_di_atto_di_finanziamento",
@@ -3449,7 +3536,7 @@
     "@id" : "https://w3id.org/italia/onto/TI/TimeIndexedEvent"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid201"
+    "@id" : "_:genid208"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_di_emanazione_di_atto_di_finanziamento",
@@ -3540,7 +3627,7 @@
     "@id" : "https://w3id.org/italia/onto/l0/Sequence"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid203"
+    "@id" : "_:genid210"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Strumento_di_programmazione",
@@ -3560,7 +3647,7 @@
     "@value" : "Strumento di programmazione"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid205"
+    "@id" : "_:genid212"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Strumento_di_programmazione_libero",
@@ -3600,7 +3687,7 @@
     "@value" : "Sub-investimento PNRR"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid208"
+    "@id" : "_:genid215"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Target_PNRR",
@@ -3620,7 +3707,7 @@
     "@value" : "Target PNRR"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid210"
+    "@id" : "_:genid217"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Target_PNRR_di_progetto",
@@ -3640,13 +3727,13 @@
     "@value" : "Target PNRR di progetto"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid212"
+    "@id" : "_:genid219"
   }, {
-    "@id" : "_:genid213"
+    "@id" : "_:genid220"
   }, {
-    "@id" : "_:genid215"
+    "@id" : "_:genid222"
   }, {
-    "@id" : "_:genid216"
+    "@id" : "_:genid223"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Tematica_PNRR",
@@ -3836,7 +3923,7 @@
     "@value" : "Unità organizzativa"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid217"
+    "@id" : "_:genid224"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Utente_richiedente_cup",
@@ -3896,12 +3983,12 @@
     "@value" : "Utente sistema cup"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid220"
-  }, {
     "@id" : "_:genid227"
+  }, {
+    "@id" : "_:genid234"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid219"
+    "@id" : "_:genid226"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_di_beni",
@@ -4037,7 +4124,7 @@
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/asserisce_atto",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid1"
+    "@id" : "_:genid8"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -4410,7 +4497,7 @@
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_generazione_cup",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid6"
+    "@id" : "_:genid13"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -4426,7 +4513,7 @@
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_atto_modifica_cup",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid9"
+    "@id" : "_:genid16"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -4484,7 +4571,7 @@
     "@value" : "has beneficiary contribution"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid13"
+    "@id" : "_:genid20"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_beneficiario_incentivo_unità_produttiva",
@@ -4502,7 +4589,7 @@
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/italia/onto/COV/Organization"
   }, {
-    "@id" : "_:genid16"
+    "@id" : "_:genid23"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_beneficiario_partecipazione_conferimento",
@@ -4520,7 +4607,7 @@
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/italia/onto/COV/Organization"
   }, {
-    "@id" : "_:genid17"
+    "@id" : "_:genid24"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_categoria_intervento",
@@ -4629,7 +4716,7 @@
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_cup_di_progettazione_collegato",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid18"
+    "@id" : "_:genid25"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -4639,7 +4726,7 @@
     "@value" : "has design cup attached"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid21"
+    "@id" : "_:genid28"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_cup_collegato"
@@ -4817,7 +4904,7 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Progetto_di_investimento_pubblico"
   }, {
-    "@id" : "_:genid24"
+    "@id" : "_:genid31"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -5197,7 +5284,7 @@
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Utente_riferimento_cup"
   }, {
-    "@id" : "_:genid25"
+    "@id" : "_:genid32"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/ha_utente_richiedente_cup",
@@ -5263,6 +5350,9 @@
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Utente_riferimento_cup"
   } ]
+}, {
+  "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/hasImage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/identificativo_atto",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
@@ -5850,7 +5940,7 @@
   "@id" : "https://w3id.org/italia/onto/l0/Agent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "_:genid232"
+    "@id" : "_:genid239"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/onto/l0/Sequence",
