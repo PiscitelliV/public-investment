@@ -26,22 +26,6 @@
      xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#">
     <owl:Ontology rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment">
         <owl:versionIRI rdf:resource="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/1.0"/>
-        <dc:description rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-atto.png"/>
-        <dc:description rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-cup.png"/>
-        <dc:description rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-intervento.png"/>
-        <dc:description rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-natura-intervento.png"/>
-        <dc:description rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-progetto.png"/>
-        <dc:description rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-relazioni-intervento.png"/>
-        <dc:description rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-soggetto.png"/>
-        <dc:description rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-tipizzazione-data-property.png"/>
-        <dc:description>Atto.</dc:description>
-        <dc:description>CUP.</dc:description>
-        <dc:description>Intervento.</dc:description>
-        <dc:description>Natura di intervento.</dc:description>
-        <dc:description>Progetto.</dc:description>
-        <dc:description>Relazioni intervento.</dc:description>
-        <dc:description>Soggetto.</dc:description>
-        <dc:description>Tipizzazione data property.</dc:description>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
         <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/ISTAT"/>
         <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/PCM-DIPE"/>
@@ -71,6 +55,55 @@
         <dcat:keyword xml:lang="en">Public Investment</dcat:keyword>
         <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
         <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <hasImage>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+                <dc:description>CUP.</dc:description>
+                <foaf:depiction rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-cup.png"/>
+            </rdf:Description>
+        </hasImage>
+        <hasImage>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+                <dc:description>Natura di intervento.</dc:description>
+                <foaf:depiction rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-natura-intervento.png"/>
+            </rdf:Description>
+        </hasImage>
+        <hasImage>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+                <dc:description>Atto.</dc:description>
+                <foaf:depiction rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-atto.png"/>
+            </rdf:Description>
+        </hasImage>
+        <hasImage>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+                <dc:description>Progetto.</dc:description>
+                <foaf:depiction rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-progetto.png"/>
+            </rdf:Description>
+        </hasImage>
+        <hasImage>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+                <dc:description>Intervento.</dc:description>
+                <foaf:depiction rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-intervento.png"/>
+            </rdf:Description>
+        </hasImage>
+        <hasImage>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+                <dc:description>Soggetto.</dc:description>
+                <foaf:depiction rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-soggetto.png"/>
+            </rdf:Description>
+        </hasImage>
+        <hasImage>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+                <dc:description>Relazioni intervento.</dc:description>
+                <foaf:depiction rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-relazioni-intervento.png"/>
+            </rdf:Description>
+        </hasImage>
         <admsapit:acronym>PI</admsapit:acronym>
         <admsapit:hasContributor rdf:resource="https://w3id.org/italia/data/public-organization/ISTAT"/>
         <admsapit:hasContributor rdf:resource="https://w3id.org/italia/data/public-organization/PCM-DIPE"/>
@@ -239,9 +272,21 @@
     
 
 
+    <!-- http://xmlns.com/foaf/0.1/depiction -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/depiction"/>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/name -->
 
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/hasImage -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/hasImage"/>
     
 
 
@@ -1805,6 +1850,12 @@
     <!-- http://xmlns.com/foaf/0.1/Agent -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Image -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Image"/>
     
 
 

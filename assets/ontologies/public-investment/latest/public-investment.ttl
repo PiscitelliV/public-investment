@@ -32,23 +32,42 @@
 <https://w3id.org/italia/PublicInvestment/onto/PublicInvestment> rdf:type owl:Ontology ;				
 				owl:versionIRI <https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/1.0> ;
 				owl:versionInfo "Versione 1.0"@it , 
-								"Version 1.0"@en ;
-				dc:description "CUP." ;
-				dc:description <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-cup.png> ;
-				dc:description "Natura di intervento." ;
-				dc:description <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-natura-intervento.png> ;
-				dc:description "Atto." ;
-				dc:description <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-atto.png> ;
-				dc:description "Progetto." ;
-				dc:description <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-progetto.png> ;
-				dc:description "Intervento." ;
-				dc:description <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-intervento.png> ;
-				dc:description "Soggetto." ;
-				dc:description <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-soggetto.png> ;
-				dc:description "Relazioni intervento." ;
-				dc:description <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-relazioni-intervento.png> ;
-				dc:description "Tipizzazione data property." ;
-				dc:description <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-tipizzazione-data-property.png> ;
+								"Version 1.0"@en ;								
+				ocup:hasImage [
+									a foaf:Image ;
+									dc:description "CUP." ;
+									foaf:depiction <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-cup.png>
+								] ,
+								[
+									a foaf:Image ;
+									dc:description "Natura di intervento." ;
+									foaf:depiction <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-natura-intervento.png>
+								] ,
+								[
+									a foaf:Image ;
+									dc:description "Atto." ;
+									foaf:depiction <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-atto.png>
+								] ,
+								[
+									a foaf:Image ;
+									dc:description "Progetto." ;
+									foaf:depiction <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-progetto.png>
+								] ,
+								[
+									a foaf:Image ;
+									dc:description "Intervento." ;
+									foaf:depiction <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-intervento.png>
+								] ,
+								[
+									a foaf:Image ;
+									dc:description "Soggetto." ;
+									foaf:depiction <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-soggetto.png>
+								] ,
+								[
+									a foaf:Image ;
+									dc:description "Relazioni intervento." ;
+									foaf:depiction <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-relazioni-intervento.png>
+								] ;						
 				dct:identifier "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment" ;
 				dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
 				dct:language <http://publications.europa.eu/resource/authority/language/ITA> , <http://publications.europa.eu/resource/authority/language/ENG> ;
