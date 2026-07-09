@@ -33,41 +33,7 @@
 				owl:versionIRI <https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/1.0> ;
 				owl:versionInfo "Versione 1.0"@it , 
 								"Version 1.0"@en ;								
-				ocup:hasImage [
-									a foaf:Image ;
-									dc:description "CUP." ;
-									foaf:depiction <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-cup.png>
-								] ,
-								[
-									a foaf:Image ;
-									dc:description "Natura di intervento." ;
-									foaf:depiction <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-natura-intervento.png>
-								] ,
-								[
-									a foaf:Image ;
-									dc:description "Atto." ;
-									foaf:depiction <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-atto.png>
-								] ,
-								[
-									a foaf:Image ;
-									dc:description "Progetto." ;
-									foaf:depiction <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-progetto.png>
-								] ,
-								[
-									a foaf:Image ;
-									dc:description "Intervento." ;
-									foaf:depiction <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-intervento.png>
-								] ,
-								[
-									a foaf:Image ;
-									dc:description "Soggetto." ;
-									foaf:depiction <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-soggetto.png>
-								] ,
-								[
-									a foaf:Image ;
-									dc:description "Relazioni intervento." ;
-									foaf:depiction <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-relazioni-intervento.png>
-								] ;						
+                dc:description <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-full.png> ;			
 				dct:identifier "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment" ;
 				dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
 				dct:language <http://publications.europa.eu/resource/authority/language/ITA> , <http://publications.europa.eu/resource/authority/language/ENG> ;
@@ -75,10 +41,10 @@
 				dct:creator <https://w3id.org/italia/data/public-organization/PCM-DIPE> , <https://w3id.org/italia/data/public-organization/ISTAT> ; 
 				dct:publisher <https://w3id.org/italia/data/public-organization/PCM-DIPE> ;
 				dct:rightsHolder <https://w3id.org/italia/data/public-organization/PCM-DIPE>; 
-				dct:issued "2026-07-07"^^xsd:date ;
-				dct:modified "2026-07-07"^^xsd:date ;
+				dct:issued "2026-07-09"^^xsd:date ;
+				dct:modified "2026-07-09"^^xsd:date ;
 				dct:temporal "Dal 2026" ;
-				dct:subject <https://w3id.org/italia/PublicInvestment/onto/PublicInvestment> ;
+				dct:subject <http://publications.europa.eu/resource/authority/data-theme/ECON> , <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
 				dct:title "Public Investment Ontology"@en , 
 						  "Ontologia degli Investimenti Pubblici"@it ;		  
 				dct:description "L’ontologia è il prodotto dell'analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell'ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell'ambito dell'Impegno C6 del 6° Piano d'Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata con le ontologie CORE della rete semantica del Catalogo Nazionale dei dati (schema.gov.it)."@it , 
@@ -91,7 +57,7 @@
 				dcat:keyword "Investimenti Pubblici"@it , "OpenCUP"@it,
 							 "Public Investment"@en , "OpenCUP"@en ;
 				admsapit:acronym "PI" ;
-				admsapit:hasContributor <https://w3id.org/italia/data/public-organization/PCM-DIPE> , <https://w3id.org/italia/data/public-organization/ISTAT>;
+				admsapit:hasContributor  <https://w3id.org/italia/data/public-organization/ISTAT>;
 				admsapit:hasFormalityLevel admsapit:Formal ;
 				admsapit:hasKeyClass :Codice_unico_di_progetto ,
 									 :Intervento_di_investimento_pubblico ;					 
@@ -116,7 +82,7 @@
     a dcatapit:Agent , foaf:Agent ;
     dct:identifier "PCM-DIPE" ;
     foaf:name "Dipartimento per la Programmazione e il Coordinamento della Politica Economica (DIPE) della Presidenza del Consiglio dei Ministri"@it,
-             "Department for Economic Policy Planning and Coordination (DIPE) of the Prime Minister's Office"@en .
+              "Department for Economic Policy Planning and Coordination (DIPE) of the Prime Minister's Office"@en .
 
 <https://w3id.org/italia/data/public-organization/ISTAT>
     a dcatapit:Agent , foaf:Agent ;
@@ -125,7 +91,7 @@
               "Italian National Institute of Statistics - ISTAT"@en .
 
 <https://w3id.org/italia/data/contact-point/PCM-DIPE>
-   a	dcatapit:Organization , vcard:Organization, vcard:Kind ;
+   a vcard:Organization, vcard:Kind ;
    vcard:fn "Segreteria Tecnica PCM-DIPE" ;
    vcard:hasEmail <mailto:f.destefanis@governo.it>, <mailto:leo.salvatori@governo.it>  .
 
