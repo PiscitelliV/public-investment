@@ -1,5 +1,6 @@
 @prefix : <https://w3id.org/italia/PublicInvestment/controlled-vocabulary/natura_intervento/> .
 @prefix adms: <https://w3id.org/italia/onto/ADMS/> .
+@prefix clvapit: <https://w3id.org/italia/controlled-vocabulary/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
@@ -29,12 +30,12 @@
 
 <https://w3id.org/italia/PublicInvestment/controlled-vocabulary/natura_intervento>
   rdf:type      skos:ConceptScheme , adms:Asset , dcatapit:Dataset ;
-  dct:title "Controlled Vocabulary for Controlled Vocabulary of the Nature of Intervention"@en , "Vocabolario Controllato della Natura di Intervento"@it ;
-  dct:description "Vocabolario Controllato della Natura di Intervento"@it, "Controlled Vocabulary for Controlled Vocabulary of the Nature of Intervention"@en;
+  dct:title "Controlled Vocabulary of the Nature of Intervention"@en , "Vocabolario Controllato della Natura di Intervento"@it ;
+  dct:description "Vocabolario Controllato della Natura di Intervento"@it, "Controlled Vocabulary of the Nature of Intervention"@en;
   xkos:numberOfLevels "2" ;
   dct:type <http://purl.org/adms/assettype/CodeList> ;
   adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
-  dct:identifier <https://w3id.org/italia/PublicInvestment/controlled-vocabulary/natura_intervento>;
+  dct:identifier "https://w3id.org/italia/PublicInvestment/controlled-vocabulary/natura_intervento";  
   dct:rightsHolder <https://w3id.org/italia/data/public-organization/PCM-DIPE> ;
   dct:creator <https://w3id.org/italia/data/public-organization/PCM-DIPE> , <https://w3id.org/italia/data/public-organization/ISTAT> ;
   dct:publisher <https://w3id.org/italia/data/public-organization/PCM-DIPE> ;
@@ -42,7 +43,7 @@
   dct:conformsTo  <https://w3id.org/italia/data/standard/SKOS> ;
   dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
   dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
-  rdfs:isDefinedBy <https://w3id.org/italia/PublicInvestment/controlled-vocabulary/natura_intervento>;
+  rdfs:isDefinedBy <https://w3id.org/italia/PublicInvestment/controlled-vocabulary/natura_intervento> ;
   dcat:keyword "Natura Intervento"@it, "Intervention Nature"@en ;
   dcat:distribution <https://w3id.org/italia/data/distribution/natura_intervento_RDF_Turtle> , <https://w3id.org/italia/data/distribution/natura_intervento_CSV> , <https://w3id.org/italia/data/distribution/natura_intervento_XLSX>;
   dcat:contactPoint <https://w3id.org/italia/data/contact-point/PCM-DIPE> ;
@@ -51,7 +52,7 @@
   dct:temporal "Dal 2026" ;
   dct:subject <http://publications.europa.eu/resource/authority/data-theme/ECON> , <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
   owl:versionInfo "Versione 1.0"@it ; 
-  ndc:keyConcept "Natura_di_intervento" ;
+  ndc:keyConcept "Natura_di_Intervento" ;
   skos:hasTopConcept  <https://w3id.org/italia/PublicInvestment/controlled-vocabulary/natura_intervento/01>,
 				      <https://w3id.org/italia/PublicInvestment/controlled-vocabulary/natura_intervento/02>,
 					  <https://w3id.org/italia/PublicInvestment/controlled-vocabulary/natura_intervento/03>,
@@ -59,10 +60,10 @@
 					  <https://w3id.org/italia/PublicInvestment/controlled-vocabulary/natura_intervento/07>,
 					  <https://w3id.org/italia/PublicInvestment/controlled-vocabulary/natura_intervento/08> ;
 					
-  rdfs:comment "Controlled Vocabulary for Controlled Vocabulary of the Nature of Intervention"@en , "Vocabolario Controllato della Natura di Intervento"@it ;
-  rdfs:label "Controlled Vocabulary for Controlled Vocabulary of the Nature of Intervention"@en , "Vocabolario Controllato della Natura di Intervento"@it ;
-  skos:notation "Controlled Vocabulary for Controlled Vocabulary of the Nature of Intervention"@en , "Vocabolario Controllato della Natura di Intervento"@it ;       
-  skos:prefLabel "Controlled Vocabulary for Controlled Vocabulary of the Nature of Intervention"@en , "Vocabolario Controllato della Natura di Intervento"@it .   
+  rdfs:comment "Controlled Vocabulary of the Nature of Intervention"@en , "Vocabolario Controllato della Natura di Intervento"@it ;
+  rdfs:label "Controlled Vocabulary of the Nature of Intervention"@en , "Vocabolario Controllato della Natura di Intervento"@it ;
+  skos:notation "Controlled Vocabulary of the Nature of Intervention"@en , "Vocabolario Controllato della Natura di Intervento"@it ;       
+  skos:prefLabel "Controlled Vocabulary of the Nature of Intervention"@en , "Vocabolario Controllato della Natura di Intervento"@it .   
 
 
 <https://w3id.org/italia/data/public-organization/PCM-DIPE>

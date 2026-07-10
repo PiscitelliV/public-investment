@@ -2090,9 +2090,6 @@
   "@id" : "http://dati.gov.it/onto/dcatapit#Standard",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://purl.org/dc/elements/1.1/description",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
   "@id" : "http://purl.org/dc/terms/Standard",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
@@ -2191,9 +2188,6 @@
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.org/dc/elements/1.1/description" : [ {
-    "@id" : "https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-full.png"
-  } ],
   "http://purl.org/dc/terms/accrualPeriodicity" : [ {
     "@id" : "http://publications.europa.eu/resource/authority/frequency/IRREG"
   } ],
