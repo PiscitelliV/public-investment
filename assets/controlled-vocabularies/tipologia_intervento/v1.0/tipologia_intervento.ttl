@@ -1,5 +1,6 @@
 @prefix : <https://w3id.org/italia/PublicInvestment/controlled-vocabulary/tipologia_intervento/> .
 @prefix adms: <https://w3id.org/italia/onto/ADMS/> .
+@prefix clvapit: <https://w3id.org/italia/controlled-vocabulary/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
@@ -35,7 +36,7 @@
   xkos:numberOfLevels "2" ;
   dct:type <http://purl.org/adms/assettype/CodeList> ;
   adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
-  dct:identifier <https://w3id.org/italia/PublicInvestment/controlled-vocabulary/tipologia_intervento>;
+  dct:identifier "https://w3id.org/italia/PublicInvestment/controlled-vocabulary/tipologia_intervento" ;
   dct:rightsHolder <https://w3id.org/italia/data/public-organization/PCM-DIPE> ;
   dct:creator <https://w3id.org/italia/data/public-organization/PCM-DIPE> , <https://w3id.org/italia/data/public-organization/ISTAT> ;
   dct:publisher <https://w3id.org/italia/data/public-organization/PCM-DIPE> ;
