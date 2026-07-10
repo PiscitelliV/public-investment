@@ -1,49 +1,38 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/"
-     xml:base="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/"
-     xmlns:RO="https://w3id.org/italia/onto/RO/"
-     xmlns:SM="https://w3id.org/italia/onto/SM/"
-     xmlns:TI="https://w3id.org/italia/onto/TI/"
+<rdf:RDF xmlns="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment#"
+     xml:base="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:l0="https://w3id.org/italia/onto/l0/"
-     xmlns:CLV="https://w3id.org/italia/onto/CLV/"
-     xmlns:COV="https://w3id.org/italia/onto/COV/"
-     xmlns:CPV="https://w3id.org/italia/onto/CPV/"
-     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:ns="http://www.w3.org/2006/vcard/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:ADMS="https://w3id.org/italia/onto/ADMS/"
      xmlns:dcat="http://www.w3.org/ns/dcat#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:ocup="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
-     xmlns:time="http://www.w3.org/2006/time#"
-     xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-     xmlns:admsapit="https://w3id.org/italia/onto/ADMS/"
-     xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#">
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment">
         <owl:versionIRI rdf:resource="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/1.0"/>
         <dc:description rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment-full.png"/>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-        <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/ISTAT"/>
-        <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/PCM-DIPE"/>
-        <dct:description xml:lang="it">L’ontologia è il prodotto dell&apos;analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell&apos;ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell&apos;ambito dell&apos;Impegno C6 del 6° Piano d&apos;Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata con le ontologie CORE della rete semantica del Catalogo Nazionale dei dati (schema.gov.it).</dct:description>
-        <dct:description xml:lang="en">This ontology results from the semantic analysis of the Unique Project Code (CUP) and the information assets of the OpenCUP portal. It has been developed by the Department for Programming and Coordination of Economic Policy (DIPE) of the Presidency of the Council of Ministers, with semantic stewardship by ISTAT and in coordination with the Department for Digital Transformation (DTD), within Commitment C6 of the 6th National Action Plan for the Open Government Partnership (OGP) 2024–2026. It is aligned with the CORE ontologies of the National Data Catalogue semantic network (schema.gov.it).</dct:description>
-        <dct:identifier>https://w3id.org/italia/PublicInvestment/onto/PublicInvestment</dct:identifier>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-07-09</dct:issued>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-07-09</dct:modified>
-        <dct:publisher rdf:resource="https://w3id.org/italia/data/public-organization/PCM-DIPE"/>
-        <dct:rightsHolder rdf:resource="https://w3id.org/italia/data/public-organization/PCM-DIPE"/>
-        <dct:subject rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
-        <dct:subject rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-        <dct:temporal>Dal 2026</dct:temporal>
-        <dct:title xml:lang="it">Ontologia degli Investimenti Pubblici</dct:title>
-        <dct:title xml:lang="en">Public Investment Ontology</dct:title>
+        <terms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+        <terms:creator rdf:resource="https://w3id.org/italia/data/public-organization/ISTAT"/>
+        <terms:creator rdf:resource="https://w3id.org/italia/data/public-organization/PCM-DIPE"/>
+        <terms:description xml:lang="it">L’ontologia è il prodotto dell&apos;analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell&apos;ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell&apos;ambito dell&apos;Impegno C6 del 6° Piano d&apos;Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata con le ontologie CORE della rete semantica del Catalogo Nazionale dei dati (schema.gov.it).</terms:description>
+        <terms:description xml:lang="en">This ontology results from the semantic analysis of the Unique Project Code (CUP) and the information assets of the OpenCUP portal. It has been developed by the Department for Programming and Coordination of Economic Policy (DIPE) of the Presidency of the Council of Ministers, with semantic stewardship by ISTAT and in coordination with the Department for Digital Transformation (DTD), within Commitment C6 of the 6th National Action Plan for the Open Government Partnership (OGP) 2024–2026. It is aligned with the CORE ontologies of the National Data Catalogue semantic network (schema.gov.it).</terms:description>
+        <terms:identifier>https://w3id.org/italia/PublicInvestment/onto/PublicInvestment</terms:identifier>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-07-09</terms:issued>
+        <terms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <terms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-07-09</terms:modified>
+        <terms:publisher rdf:resource="https://w3id.org/italia/data/public-organization/PCM-DIPE"/>
+        <terms:rightsHolder rdf:resource="https://w3id.org/italia/data/public-organization/PCM-DIPE"/>
+        <terms:subject rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <terms:subject rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <terms:temporal>Dal 2026</terms:temporal>
+        <terms:title xml:lang="it">Ontologia degli Investimenti Pubblici</terms:title>
+        <terms:title xml:lang="en">Public Investment Ontology</terms:title>
         <rdfs:comment xml:lang="it">L’ontologia è il prodotto dell&apos;analisi semantica del Codice Unico di Progetto (CUP) e del patrimonio informativo del portale OpenCUP. È sviluppata dal Dipartimento per la programmazione e il coordinamento della politica economica (DIPE) della Presidenza del Consiglio dei Ministri, con la semantic stewardship dell&apos;ISTAT e in coordinamento con il Dipartimento per la Trasformazione Digitale (DTD), nell&apos;ambito dell&apos;Impegno C6 del 6° Piano d&apos;Azione Nazionale per il Governo Aperto (OGP) 2024–2026. È allineata con le ontologie CORE della rete semantica del Catalogo Nazionale dei dati (schema.gov.it).</rdfs:comment>
         <rdfs:comment xml:lang="en">This ontology results from the semantic analysis of the Unique Project Code (CUP) and the information assets of the OpenCUP portal. It has been developed by the Department for Programming and Coordination of Economic Policy (DIPE) of the Presidency of the Council of Ministers, with semantic stewardship by ISTAT and in coordination with the Department for Digital Transformation (DTD), within Commitment C6 of the 6th National Action Plan for the Open Government Partnership (OGP) 2024–2026. It is aligned with the CORE ontologies of the National Data Catalogue semantic network (schema.gov.it).</rdfs:comment>
         <rdfs:label xml:lang="it">Ontologia degli Investimenti Pubblici</rdfs:label>
@@ -57,26 +46,26 @@
         <dcat:keyword xml:lang="en">Public Investment</dcat:keyword>
         <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
         <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-        <admsapit:acronym>PI</admsapit:acronym>
-        <admsapit:hasContributor rdf:resource="https://w3id.org/italia/data/public-organization/ISTAT"/>
-        <admsapit:hasFormalityLevel rdf:resource="https://w3id.org/italia/onto/ADMS/Formal"/>
-        <admsapit:hasKeyClass rdf:resource="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Codice_unico_di_progetto"/>
-        <admsapit:hasKeyClass rdf:resource="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Intervento_di_investimento_pubblico"/>
-        <admsapit:hasOntologyLanguage rdf:resource="https://w3id.org/italia/onto/ADMS/OWL"/>
-        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/PI-JSON-LD"/>
-        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/PI-RDF-TURTLE"/>
-        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/PI-RDF-XML"/>
-        <admsapit:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/AnnotationTask"/>
-        <admsapit:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/QueryFormulationTask"/>
-        <admsapit:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/SearchTask"/>
-        <admsapit:last rdf:resource="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/1.0"/>
-        <admsapit:officialURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/PublicInvestment/onto/PublicInvestment</admsapit:officialURI>
-        <admsapit:prefix>pi</admsapit:prefix>
-        <admsapit:semanticAssetInUse rdf:resource="https://w3id.org/italia/data/project/NDC"/>
-        <admsapit:status>catalogued</admsapit:status>
-        <admsapit:status>published</admsapit:status>
-        <admsapit:target>Pubbliche Amministrazioni</admsapit:target>
-        <admsapit:type rdf:resource="https://w3id.org/italia/onto/ADMS/DomainOntology"/>
+        <ADMS:acronym>PI</ADMS:acronym>
+        <ADMS:hasContributor rdf:resource="https://w3id.org/italia/data/public-organization/ISTAT"/>
+        <ADMS:hasFormalityLevel rdf:resource="https://w3id.org/italia/onto/ADMS/Formal"/>
+        <ADMS:hasKeyClass rdf:resource="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Codice_unico_di_progetto"/>
+        <ADMS:hasKeyClass rdf:resource="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Intervento_di_investimento_pubblico"/>
+        <ADMS:hasOntologyLanguage rdf:resource="https://w3id.org/italia/onto/ADMS/OWL"/>
+        <ADMS:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/PI-JSON-LD"/>
+        <ADMS:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/PI-RDF-TURTLE"/>
+        <ADMS:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/PI-RDF-XML"/>
+        <ADMS:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/AnnotationTask"/>
+        <ADMS:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/QueryFormulationTask"/>
+        <ADMS:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/SearchTask"/>
+        <ADMS:last rdf:resource="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/1.0"/>
+        <ADMS:officialURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/PublicInvestment/onto/PublicInvestment</ADMS:officialURI>
+        <ADMS:prefix>pi</ADMS:prefix>
+        <ADMS:semanticAssetInUse rdf:resource="https://w3id.org/italia/data/project/NDC"/>
+        <ADMS:status>catalogued</ADMS:status>
+        <ADMS:status>published</ADMS:status>
+        <ADMS:target>Pubbliche Amministrazioni</ADMS:target>
+        <ADMS:type rdf:resource="https://w3id.org/italia/onto/ADMS/DomainOntology"/>
     </owl:Ontology>
     
 
@@ -3728,9 +3717,9 @@ Soggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il
     <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/contact-point/PCM-DIPE">
         <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
         <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-        <vcard:fn>Segreteria Tecnica PCM-DIPE</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:f.destefanis@governo.it"/>
-        <vcard:hasEmail rdf:resource="mailto:leo.salvatori@governo.it"/>
+        <ns:fn>Segreteria Tecnica PCM-DIPE</ns:fn>
+        <ns:hasEmail rdf:resource="mailto:f.destefanis@governo.it"/>
+        <ns:hasEmail rdf:resource="mailto:leo.salvatori@governo.it"/>
     </owl:NamedIndividual>
     
 
@@ -3739,12 +3728,12 @@ Soggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il
 
     <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/PI-JSON-LD">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
-        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell&apos;ontologia Investimenti Pubblici</dct:description>
-        <dct:description xml:lang="en">This is the distribution in RDF/turtle of the ontology Public Investment</dct:description>
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-        <dct:title xml:lang="it">Distribuzione JSON-LD dell&apos;ontologia Investimenti Pubblici</dct:title>
-        <dct:title xml:lang="en">JSON-LD distribution of the Ontology Public Investment</dct:title>
+        <terms:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell&apos;ontologia Investimenti Pubblici</terms:description>
+        <terms:description xml:lang="en">This is the distribution in RDF/turtle of the ontology Public Investment</terms:description>
+        <terms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+        <terms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <terms:title xml:lang="it">Distribuzione JSON-LD dell&apos;ontologia Investimenti Pubblici</terms:title>
+        <terms:title xml:lang="en">JSON-LD distribution of the Ontology Public Investment</terms:title>
         <dcat:accessURL rdf:resource="https://github.com/PCM-DIPE/public-investment/tree/main/assets/ontologies/public-investment/latest"/>
         <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment.jsonld"/>
     </owl:NamedIndividual>
@@ -3755,12 +3744,12 @@ Soggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il
 
     <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/PI-RDF-TURTLE">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
-        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell&apos;ontologia Investimenti Pubblici</dct:description>
-        <dct:description xml:lang="en">This is the distribution in RDF/turtle of the ontology Public Investment</dct:description>
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-        <dct:title xml:lang="it">Distribuzione RDF/Turtle dell&apos; ontologia Investimenti Pubblici</dct:title>
-        <dct:title xml:lang="en">RDF/Turtle distribution of the ontology Public Investment</dct:title>
+        <terms:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell&apos;ontologia Investimenti Pubblici</terms:description>
+        <terms:description xml:lang="en">This is the distribution in RDF/turtle of the ontology Public Investment</terms:description>
+        <terms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+        <terms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <terms:title xml:lang="it">Distribuzione RDF/Turtle dell&apos; ontologia Investimenti Pubblici</terms:title>
+        <terms:title xml:lang="en">RDF/Turtle distribution of the ontology Public Investment</terms:title>
         <dcat:accessURL rdf:resource="https://github.com/PCM-DIPE/public-investment/tree/main/assets/ontologies/public-investment/latest"/>
         <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment.ttl"/>
     </owl:NamedIndividual>
@@ -3771,12 +3760,12 @@ Soggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il
 
     <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/PI-RDF-XML">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
-        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML dell&apos;ontologia Investimenti Pubblici</dct:description>
-        <dct:description xml:lang="en">This is the distribution in RDF/XML of the Public Investment</dct:description>
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-        <dct:title xml:lang="it">Distribuzione RDF/XML dell&apos; ontologia Investimenti Pubblici</dct:title>
-        <dct:title xml:lang="en">RDF/XML distribution of the ontology Public Investment</dct:title>
+        <terms:description xml:lang="it">Questa è la distribuzione RDF/XML dell&apos;ontologia Investimenti Pubblici</terms:description>
+        <terms:description xml:lang="en">This is the distribution in RDF/XML of the Public Investment</terms:description>
+        <terms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+        <terms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <terms:title xml:lang="it">Distribuzione RDF/XML dell&apos; ontologia Investimenti Pubblici</terms:title>
+        <terms:title xml:lang="en">RDF/XML distribution of the ontology Public Investment</terms:title>
         <dcat:accessURL rdf:resource="https://github.com/PCM-DIPE/public-investment/tree/main/assets/ontologies/public-investment/latest"/>
         <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment.rdf"/>
     </owl:NamedIndividual>
@@ -3797,7 +3786,7 @@ Soggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il
     <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/public-organization/ISTAT">
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>ISTAT</dct:identifier>
+        <terms:identifier>ISTAT</terms:identifier>
         <foaf:name xml:lang="it">Istituto Nazionale di Statistica - ISTAT</foaf:name>
         <foaf:name xml:lang="en">Italian National Institute of Statistics - ISTAT</foaf:name>
     </owl:NamedIndividual>
@@ -3809,7 +3798,7 @@ Soggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il
     <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/public-organization/PCM-DIPE">
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>PCM-DIPE</dct:identifier>
+        <terms:identifier>PCM-DIPE</terms:identifier>
         <foaf:name xml:lang="en">Department for Economic Policy Planning and Coordination (DIPE) of the Prime Minister&apos;s Office</foaf:name>
         <foaf:name xml:lang="it">Dipartimento per la Programmazione e il Coordinamento della Politica Economica (DIPE) della Presidenza del Consiglio dei Ministri</foaf:name>
     </owl:NamedIndividual>
@@ -3821,10 +3810,10 @@ Soggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il
     <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/standard/SKOS">
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
         <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-        <dct:description xml:lang="it">Simple Knowledge Organization System (SKOS) è un modello di dati comune per la condivisione e il collegamento di sistemi di organizzazione della conoscenza tramite il Web. </dct:description>
-        <dct:description xml:lang="en">The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web. </dct:description>
-        <dct:identifier>SKOS</dct:identifier>
-        <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
+        <terms:description xml:lang="it">Simple Knowledge Organization System (SKOS) è un modello di dati comune per la condivisione e il collegamento di sistemi di organizzazione della conoscenza tramite il Web. </terms:description>
+        <terms:description xml:lang="en">The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web. </terms:description>
+        <terms:identifier>SKOS</terms:identifier>
+        <terms:title>Simple Knowledge Organization System - SKOS</terms:title>
         <foaf:name xml:lang="en">Simple Knowledge Organization System (SKOS)</foaf:name>
     </owl:NamedIndividual>
     
