@@ -40,8 +40,8 @@
 				dct:creator <https://w3id.org/italia/data/public-organization/PCM-DIPE> , <https://w3id.org/italia/data/public-organization/ISTAT> ; 
 				dct:publisher <https://w3id.org/italia/data/public-organization/PCM-DIPE> ;
 				dct:rightsHolder <https://w3id.org/italia/data/public-organization/PCM-DIPE>; 
-				dct:issued "2026-07-09"^^xsd:date ;
-				dct:modified "2026-07-09"^^xsd:date ;
+				dct:issued "2026-07-13"^^xsd:date ;
+				dct:modified "2026-07-13"^^xsd:date ;
 				dct:temporal "Dal 2026" ;
 				dct:subject <http://publications.europa.eu/resource/authority/data-theme/ECON> , <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
 				dct:title "Public Investment Ontology"@en , 

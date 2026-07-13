@@ -4077,7 +4077,7 @@ Soggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il
         </owl:someValuesFrom>
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Stato_attivo_di_cup"/>
     </owl:Restriction>
-    <rdf:Description>
+	 <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/Acquisto_di_beni"/>
@@ -4144,56 +4144,20 @@ Soggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_di_beni"/>
-                </owl:oneOf>
-            </owl:Class>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_di_servizi"/>
-                </owl:oneOf>
-            </owl:Class>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/concessione_di_contributi_ad_altri_soggetti"/>
-                </owl:oneOf>
-            </owl:Class>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/concessione_di_incentivi_ad_unità_produttive"/>
-                </owl:oneOf>
-            </owl:Class>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/realizzazione_di_lavori_pubblici"/>
-                </owl:oneOf>
-            </owl:Class>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/sottoscrizione_iniziale_o_aumento_di_capitale"/>
-                </owl:oneOf>
-            </owl:Class>
+            <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_di_beni"/>
+            <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_di_servizi"/>
+            <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/concessione_di_contributi_ad_altri_soggetti"/>
+            <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/concessione_di_incentivi_ad_unità_produttive"/>
+            <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/realizzazione_di_lavori_pubblici"/>
+            <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/sottoscrizione_iniziale_o_aumento_di_capitale"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_corso_di_formazione"/>
-                </owl:oneOf>
-            </owl:Class>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_progetto_di_ricerca"/>
-                </owl:oneOf>
-            </owl:Class>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_studio_o_progettazione"/>
-                </owl:oneOf>
-            </owl:Class>
+            <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_corso_di_formazione"/>
+            <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_progetto_di_ricerca"/>
+            <rdf:Description rdf:about="https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_studio_o_progettazione"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
@@ -4201,4 +4165,6 @@ Soggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il
 
 
 <!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
-
+	
+	
+	
