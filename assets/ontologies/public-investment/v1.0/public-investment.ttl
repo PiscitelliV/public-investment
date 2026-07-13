@@ -118,8 +118,8 @@
                                                             dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                             dct:title "Distribuzione JSON-LD dell'ontologia Investimenti Pubblici"@it ,
                                                                       "JSON-LD distribution of the Ontology Public Investment"@en ;
-                                                            dcat:accessURL <https://github.com/PCM-DIPE/public-investment/tree/main/assets/ontologies/PublicInvestment/latest> ;
-                                                            dcat:downloadURL <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/PublicInvestment/latest/PublicInvestment.jsonld> .
+                                                            dcat:accessURL <https://github.com/PCM-DIPE/public-investment/tree/main/assets/ontologies/public-investment/latest> ;
+                                                            dcat:downloadURL <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/PI-RDF-TURTLE
@@ -131,8 +131,8 @@
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione RDF/Turtle dell' ontologia Investimenti Pubblici"@it ,
                                                                          "RDF/Turtle distribution of the ontology Public Investment"@en ;
-                                                               dcat:accessURL <https://github.com/PCM-DIPE/public-investment/tree/main/assets/ontologies/PublicInvestment/latest> ;
-                                                               dcat:downloadURL <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/PublicInvestment/latest/PublicInvestment.ttl> .
+                                                               dcat:accessURL <https://github.com/PCM-DIPE/public-investment/tree/main/assets/ontologies/public-investment/latest> ;
+                                                               dcat:downloadURL <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment.ttl> .
 
 ###  https://w3id.org/italia/data/distribution/PI-RDF-XML
 <https://w3id.org/italia/data/distribution/PI-RDF-XML> rdf:type owl:NamedIndividual ,
@@ -143,8 +143,8 @@
                                                             dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                             dct:title "Distribuzione RDF/XML dell' ontologia Investimenti Pubblici"@it ,
                                                                       "RDF/XML distribution of the ontology Public Investment"@en ;
-                                                            dcat:accessURL <https://github.com/PCM-DIPE/public-investment/tree/main/assets/ontologies/PublicInvestment/latest> ;
-                                                            dcat:downloadURL <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/PublicInvestment/latest/PublicInvestment.rdf> .
+                                                            dcat:accessURL <https://github.com/PCM-DIPE/public-investment/tree/main/assets/ontologies/public-investment/latest> ;
+                                                            dcat:downloadURL <https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment.rdf> .
 
 #################################################################
 # fine metadati
