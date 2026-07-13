@@ -3738,8 +3738,8 @@ Soggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione JSON-LD dell&apos;ontologia Investimenti Pubblici</dct:title>
         <dct:title xml:lang="en">JSON-LD distribution of the Ontology Public Investment</dct:title>
-        <dcat:accessURL rdf:resource="https://github.com/PCM-DIPE/public-investment/tree/main/assets/ontologies/PublicInvestment/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/PublicInvestment/latest/PublicInvestment.jsonld"/>
+        <dcat:accessURL rdf:resource="https://github.com/PCM-DIPE/public-investment/tree/main/assets/ontologies/public-investment/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment.jsonld"/>
     </owl:NamedIndividual>
     
 
@@ -3754,8 +3754,8 @@ Soggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione RDF/Turtle dell&apos; ontologia Investimenti Pubblici</dct:title>
         <dct:title xml:lang="en">RDF/Turtle distribution of the ontology Public Investment</dct:title>
-        <dcat:accessURL rdf:resource="https://github.com/PCM-DIPE/public-investment/tree/main/assets/ontologies/PublicInvestment/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/PublicInvestment/latest/PublicInvestment.ttl"/>
+        <dcat:accessURL rdf:resource="https://github.com/PCM-DIPE/public-investment/tree/main/assets/ontologies/public-investment/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment.ttl"/>
     </owl:NamedIndividual>
     
 
@@ -3770,8 +3770,8 @@ Soggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione RDF/XML dell&apos; ontologia Investimenti Pubblici</dct:title>
         <dct:title xml:lang="en">RDF/XML distribution of the ontology Public Investment</dct:title>
-        <dcat:accessURL rdf:resource="https://github.com/PCM-DIPE/public-investment/tree/main/assets/ontologies/PublicInvestment/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/PublicInvestment/latest/PublicInvestment.rdf"/>
+        <dcat:accessURL rdf:resource="https://github.com/PCM-DIPE/public-investment/tree/main/assets/ontologies/public-investment/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/PCM-DIPE/public-investment/main/assets/ontologies/public-investment/latest/public-investment.rdf"/>
     </owl:NamedIndividual>
     
 
