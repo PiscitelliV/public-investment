@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="docs/img/logo-pcm-dipe_2.png" alt="DIPE — Dipartimento per la programmazione e il coordinamento della politica economica, Presidenza del Consiglio dei Ministri" height="300">
+  <img src="docs/img/logo-pcm-dipe_2.png" alt="DIPE — Dipartimento per la programmazione e il coordinamento della politica economica, Presidenza del Consiglio dei Ministri" height="150">
 </p>
 
 <h1 align="center">
