@@ -1,10 +1,5 @@
 
 
-
-<p align="center">
-  <img src="docs/img/logo-pcm-dipe_2.png" alt="DIPE — Dipartimento per la programmazione e il coordinamento della politica economica, Presidenza del Consiglio dei Ministri" height="150">
-</p>
-
 <h1 align="center">
   <img src="docs/img/hero.svg" alt="Ontologia del dominio degli Investimenti Pubblici — PublicInvestment · prefisso pi · Codice Unico di Progetto (CUP) · OpenCUP" width="100%">
 </h1>
