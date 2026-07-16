@@ -81,7 +81,7 @@
 <https://w3id.org/italia/data/contact-point/PCM-DIPE>
    a vcard:Organization, vcard:Kind ;
    vcard:fn "Segreteria Tecnica PCM-DIPE" ;
-   vcard:hasEmail <mailto:f.destefanis@governo.it>, <mailto:leo.salvatori@governo.it>  .
+   vcard:hasEmail <mailto:open.cup@governo.it> .
 
 <https://w3id.org/italia/data/standard/SKOS>
     a dcatapit:Standard , dct:Standard ;
