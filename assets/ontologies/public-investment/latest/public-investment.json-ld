@@ -5618,9 +5618,7 @@
     "@value" : "Segreteria Tecnica PCM-DIPE"
   } ],
   "http://www.w3.org/2006/vcard/ns#hasEmail" : [ {
-    "@id" : "mailto:f.destefanis@governo.it"
-  }, {
-    "@id" : "mailto:leo.salvatori@governo.it"
+    "@id" : "mailto:open.cup@governo.it"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/distribution/PI-JSON-LD",

@@ -3723,8 +3723,7 @@ Soggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il
         <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
         <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
         <vcard:fn>Segreteria Tecnica PCM-DIPE</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:f.destefanis@governo.it"/>
-        <vcard:hasEmail rdf:resource="mailto:leo.salvatori@governo.it"/>
+        <vcard:hasEmail rdf:resource="mailto:open.cup@governo.it"/>
     </owl:NamedIndividual>
     
 
