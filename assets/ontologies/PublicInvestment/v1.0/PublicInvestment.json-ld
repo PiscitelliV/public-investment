@@ -1605,84 +1605,28 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "_:genid383"
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_di_beni"
     }, {
-      "@id" : "_:genid380"
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_di_servizi"
     }, {
-      "@id" : "_:genid377"
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/concessione_di_contributi_ad_altri_soggetti"
     }, {
-      "@id" : "_:genid374"
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/concessione_di_incentivi_ad_unità_produttive"
     }, {
-      "@id" : "_:genid371"
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/realizzazione_di_lavori_pubblici"
     }, {
-      "@id" : "_:genid368"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid368",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
       "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/sottoscrizione_iniziale_o_aumento_di_capitale"
     } ]
   } ]
 }, {
-  "@id" : "_:genid371",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/realizzazione_di_lavori_pubblici"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid374",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/concessione_di_incentivi_ad_unità_produttive"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid377",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/concessione_di_contributi_ad_altri_soggetti"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid380",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_di_servizi"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid383",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_di_beni"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid385",
+  "@id" : "_:genid373",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "_:genid393"
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_corso_di_formazione"
     }, {
-      "@id" : "_:genid390"
+      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_progetto_di_ricerca"
     }, {
-      "@id" : "_:genid387"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid387",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
       "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_studio_o_progettazione"
     } ]
   } ]
@@ -1692,22 +1636,6 @@
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
       "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_progetto_di_ricerca"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid390",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_progetto_di_ricerca"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid393",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_corso_di_formazione"
     } ]
   } ]
 }, {
@@ -2430,10 +2358,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "it",
-    "@value" : "Progetto di investimento pubblico di un ente pubblico (richiedente il CUP) per:  \r\n-l’acquisto di servizi di sviluppo (un progetto di ricerca, l’adeguamento di un software, un corso di formazione) con il pagamento, da parte dell’ente, dei costi richiesti dal venditore; \r\n-la realizzazione di servizi di sviluppo (un progetto di ricerca, l’adeguamento di un software, un corso di formazione) con il pagamento, da parte dell’ente, dei costi connessi alle attività realizzative; rientrano in questa casistica i servizi di progettazione di opere pubbliche, se tali attività sono definite in relazione a un quadro economico di spesa specifico, distinto dalla realizzazione dell’opera. (Delibera CIPE n. 63/2020)."
+    "@value" : "Progetto di investimento pubblico di un ente pubblico (richiedente il CUP) per:  \n-l’acquisto di servizi di sviluppo (un progetto di ricerca, l’adeguamento di un software, un corso di formazione) con il pagamento, da parte dell’ente, dei costi richiesti dal venditore; \n-la realizzazione di servizi di sviluppo (un progetto di ricerca, l’adeguamento di un software, un corso di formazione) con il pagamento, da parte dell’ente, dei costi connessi alle attività realizzative; rientrano in questa casistica i servizi di progettazione di opere pubbliche, se tali attività sono definite in relazione a un quadro economico di spesa specifico, distinto dalla realizzazione dell’opera. (Delibera CIPE n. 63/2020)."
   }, {
     "@language" : "en",
-    "@value" : "Public investment project by a public entity (applicant for the CUP) for:\r\n- the purchase of development services (a research project, software upgrades, a training course) with the entity paying the costs requested by the vendor;\r\n- the implementation of development services (a research project, software upgrades, a training course) with the entity paying the costs associated with the implementation activities; this category includes public works design services, if such activities are defined in relation to a specific economic expenditure framework, distinct from the construction of the work. (CIPE Resolution No. 63/2020)."
+    "@value" : "Public investment project by a public entity (applicant for the CUP) for:\n- the purchase of development services (a research project, software upgrades, a training course) with the entity paying the costs requested by the vendor;\n- the implementation of development services (a research project, software upgrades, a training course) with the entity paying the costs associated with the implementation activities; this category includes public works design services, if such activities are defined in relation to a specific economic expenditure framework, distinct from the construction of the work. (CIPE Resolution No. 63/2020)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -2456,13 +2384,13 @@
     "@value" : "Subclass of Purchase or provision of services, relating to research projects."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Acquisto o realizzazione progetto di ricerca"
+  }, {
     "@language" : "it",
     "@value" : "Acquisto o realizzazione progetto di ricerca"
   }, {
     "@language" : "en",
     "@value" : "Purchase or implementation of research project"
-  }, {
-    "@value" : "Acquisto o realizzazione progetto di ricerca"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid74"
@@ -2497,10 +2425,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "it",
-    "@value" : "Lista a scelta singola contenente le aree d’intervento compatibilmente alla Natura selezionata, relativa ai metadati di OpenCUP. Individua le categorie omogenee con cui è possibile descrivere \"l'oggetto progettuale\" (n. 6 aree – Classificazione con relativi codici):\r\n01 – Immobili\r\n02 – Trasporti\r\n03 – Ambiente ed energia\r\n04 – Aree produttive\r\n05 – Ricerca, ITC, formazione ed altro\r\n06 – Servizi per la P.A. e per la collettività."
+    "@value" : "Lista a scelta singola contenente le aree d’intervento compatibilmente alla Natura selezionata, relativa ai metadati di OpenCUP. Individua le categorie omogenee con cui è possibile descrivere \"l'oggetto progettuale\" (n. 6 aree – Classificazione con relativi codici):\n01 – Immobili\n02 – Trasporti\n03 – Ambiente ed energia\n04 – Aree produttive\n05 – Ricerca, ITC, formazione ed altro\n06 – Servizi per la P.A. e per la collettività."
   }, {
     "@language" : "en",
-    "@value" : "Single-choice list containing the areas of intervention compatible with the selected Nature, relative to the OpenCUP metadata. Identify the homogeneous categories with which to describe the \"project object\" (6 areas – Classification with related codes):\r\n01 – Real Estate\r\n02 – Transportation\r\n03 – Environment and Energy\r\n04 – Production Areas\r\n05 – Research, ICT, Training and Other\r\n06 – Services for the Public Administration and the Community."
+    "@value" : "Single-choice list containing the areas of intervention compatible with the selected Nature, relative to the OpenCUP metadata. Identify the homogeneous categories with which to describe the \"project object\" (6 areas – Classification with related codes):\n01 – Real Estate\n02 – Transportation\n03 – Environment and Energy\n04 – Production Areas\n05 – Research, ICT, Training and Other\n06 – Services for the Public Administration and the Community."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -2669,10 +2597,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "An administrative and technical procedure that allows updating a project's information to ensure consistency with the evolution of the administrative decision. The operations are divided into:\r\nSimple operations that can be performed independently by the authorized user via the system's \"Edit\" functions:\r\n- Information modification: includes updating the project's descriptive and personal data (e.g., title or description) and/or financial data (e.g., revision of the overall cost and related financing plan) that do not alter the project's fundamental identity.\r\nComplex and assisted operations that require sending a specific request to the Support Structure via the \"Send Change Request\" function:\r\n- Replacement of the CUP: required in the event of radical changes to the project's scope, purpose, or location.\r\n- Split: splitting an original project into two or more independent interventions, each with its own financial framework.\r\n- Merger: consolidating multiple previously separate projects into a single, new, coordinated intervention."
+    "@value" : "An administrative and technical procedure that allows updating a project's information to ensure consistency with the evolution of the administrative decision. The operations are divided into:\nSimple operations that can be performed independently by the authorized user via the system's \"Edit\" functions:\n- Information modification: includes updating the project's descriptive and personal data (e.g., title or description) and/or financial data (e.g., revision of the overall cost and related financing plan) that do not alter the project's fundamental identity.\nComplex and assisted operations that require sending a specific request to the Support Structure via the \"Send Change Request\" function:\n- Replacement of the CUP: required in the event of radical changes to the project's scope, purpose, or location.\n- Split: splitting an original project into two or more independent interventions, each with its own financial framework.\n- Merger: consolidating multiple previously separate projects into a single, new, coordinated intervention."
   }, {
     "@language" : "it",
-    "@value" : "Procedura amministrativa e tecnica che permette di aggiornare il corredo informativo di un progetto per garantirne la coerenza con l'evoluzione della decisione amministrativa. Le operazioni si dividono in:\r\nOperazioni semplici che sono eseguibili autonomamente dall'utente abilitato tramite le funzioni di \"Modifica\" del sistema:\r\n- Variazione del corredo informativo: include l'aggiornamento dei dati anagrafico-descrittivi (es. titolo o descrizione) e/o dei dati finanziari (es. revisione del costo complessivo e del relativo piano di finanziamento) che non alterano l'identità sostanziale del progetto.\r\nOperazioni complesse e assistite che richiedono l'invio di una specifica istanza alla Struttura di supporto tramite la funzione \"Invio richiesta modifica\":\r\n- Sostituzione del CUP: necessaria in caso di cambiamenti radicali dell'oggetto, della finalità o della localizzazione dell'intervento.\r\n- Scissione: scomposizione di un progetto originale in due o più interventi indipendenti, ciascuno con il proprio quadro economico.\r\n- Fusione: accorpamento di più progetti precedentemente distinti in un unico nuovo intervento coordinato."
+    "@value" : "Procedura amministrativa e tecnica che permette di aggiornare il corredo informativo di un progetto per garantirne la coerenza con l'evoluzione della decisione amministrativa. Le operazioni si dividono in:\nOperazioni semplici che sono eseguibili autonomamente dall'utente abilitato tramite le funzioni di \"Modifica\" del sistema:\n- Variazione del corredo informativo: include l'aggiornamento dei dati anagrafico-descrittivi (es. titolo o descrizione) e/o dei dati finanziari (es. revisione del costo complessivo e del relativo piano di finanziamento) che non alterano l'identità sostanziale del progetto.\nOperazioni complesse e assistite che richiedono l'invio di una specifica istanza alla Struttura di supporto tramite la funzione \"Invio richiesta modifica\":\n- Sostituzione del CUP: necessaria in caso di cambiamenti radicali dell'oggetto, della finalità o della localizzazione dell'intervento.\n- Scissione: scomposizione di un progetto originale in due o più interventi indipendenti, ciascuno con il proprio quadro economico.\n- Fusione: accorpamento di più progetti precedentemente distinti in un unico nuovo intervento coordinato."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -2689,10 +2617,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "it",
-    "@value" : "Operazione che annulla la validità di un codice a seguito di una rinuncia formale alla realizzazione dell’intervento o alla perdita del finanziamento. A differenza della cancellazione, presuppone un progetto originariamente valido la cui esecuzione viene interrotta, richiedendo l'inserimento di una motivazione specifica per giustificare il passaggio del CUP allo stato di \"revocato\".\r\nOperazioni semplici che sono eseguibili autonomamente dall'utente abilitato tramite le funzioni di \"Revoca\" del sistema:\r\n- Revoca del corredo informativo: annullamento del progetto per rinuncia al finanziamento, mancata attivazione dell'intervento o accorpamento in altro progetto (previa motivazione da inserire nel sistema).\r\nOperazioni complesse e assistite che richiedono l'invio di una specifica istanza alla Struttura di supporto:\r\n- Revoca per sostituzione: necessaria quando il CUP deve essere chiuso per far posto a un nuovo codice che identifichi meglio l'evoluzione del progetto.\r\n- Revoca post-collegamento: procedura assistita obbligatoria se il CUP da revocare è già stato associato ad altri codici (es. legami tra progettazione e lavori) o se sono già presenti flussi finanziari tracciati."
+    "@value" : "Operazione che annulla la validità di un codice a seguito di una rinuncia formale alla realizzazione dell’intervento o alla perdita del finanziamento. A differenza della cancellazione, presuppone un progetto originariamente valido la cui esecuzione viene interrotta, richiedendo l'inserimento di una motivazione specifica per giustificare il passaggio del CUP allo stato di \"revocato\".\nOperazioni semplici che sono eseguibili autonomamente dall'utente abilitato tramite le funzioni di \"Revoca\" del sistema:\n- Revoca del corredo informativo: annullamento del progetto per rinuncia al finanziamento, mancata attivazione dell'intervento o accorpamento in altro progetto (previa motivazione da inserire nel sistema).\nOperazioni complesse e assistite che richiedono l'invio di una specifica istanza alla Struttura di supporto:\n- Revoca per sostituzione: necessaria quando il CUP deve essere chiuso per far posto a un nuovo codice che identifichi meglio l'evoluzione del progetto.\n- Revoca post-collegamento: procedura assistita obbligatoria se il CUP da revocare è già stato associato ad altri codici (es. legami tra progettazione e lavori) o se sono già presenti flussi finanziari tracciati."
   }, {
     "@language" : "en",
-    "@value" : "This operation cancels the validity of a code following a formal withdrawal from the project or the loss of funding. Unlike cancellation, it presupposes an originally valid project whose execution is interrupted, requiring the entry of a specific reason to justify the CUP's transition to \"revoked.\"\r\nSimple operations that can be performed independently by an authorized user using the system's \"Revocation\" functions:\r\n- Revocation of the information package: cancellation of the project due to withdrawal from funding, failure to activate the project, or merger with another project (subject to a reason entered in the system).\r\nComplex and assisted operations that require sending a specific request to the Support Structure:\r\n- Revocation for replacement: required when the CUP must be closed to make way for a new code that better identifies the project's evolution.\r\n- Post-link revocation: assisted procedure mandatory if the CUP to be revoked has already been associated with other codes (e.g., links between planning and works) or if traceable financial flows already exist."
+    "@value" : "This operation cancels the validity of a code following a formal withdrawal from the project or the loss of funding. Unlike cancellation, it presupposes an originally valid project whose execution is interrupted, requiring the entry of a specific reason to justify the CUP's transition to \"revoked.\"\nSimple operations that can be performed independently by an authorized user using the system's \"Revocation\" functions:\n- Revocation of the information package: cancellation of the project due to withdrawal from funding, failure to activate the project, or merger with another project (subject to a reason entered in the system).\nComplex and assisted operations that require sending a specific request to the Support Structure:\n- Revocation for replacement: required when the CUP must be closed to make way for a new code that better identifies the project's evolution.\n- Post-link revocation: assisted procedure mandatory if the CUP to be revoked has already been associated with other codes (e.g., links between planning and works) or if traceable financial flows already exist."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -2709,10 +2637,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "A measure by which the entity responsible for the investment project formally cancels the digital or operational signature authority on the CUP system granted to a third party. It is divided into:\r\n- Revocation by the Delegate (PF): terminates the technical access of the user responsible for generating the codes.\r\n- Revocation by the Concentrating Entity: dissolves the administrative link between the owner entity and the structure operating on its behalf."
+    "@value" : "A measure by which the entity responsible for the investment project formally cancels the digital or operational signature authority on the CUP system granted to a third party. It is divided into:\n- Revocation by the Delegate (PF): terminates the technical access of the user responsible for generating the codes.\n- Revocation by the Concentrating Entity: dissolves the administrative link between the owner entity and the structure operating on its behalf."
   }, {
     "@language" : "it",
-    "@value" : "Provvedimento con cui il Soggetto titolare del progetto d'investimento annulla formalmente il potere di firma digitale o operativa sul sistema CUP concesso a un terzo. Si distingue in:\r\n- Revoca per il Delegato (PF): interrompe l'accesso tecnico dell'utente incaricato alla generazione dei codici.\r\n- Revoca del Soggetto concentratore: scioglie il legame amministrativo tra l'ente titolare e la struttura che operava per suo conto."
+    "@value" : "Provvedimento con cui il Soggetto titolare del progetto d'investimento annulla formalmente il potere di firma digitale o operativa sul sistema CUP concesso a un terzo. Si distingue in:\n- Revoca per il Delegato (PF): interrompe l'accesso tecnico dell'utente incaricato alla generazione dei codici.\n- Revoca del Soggetto concentratore: scioglie il legame amministrativo tra l'ente titolare e la struttura che operava per suo conto."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -2974,10 +2902,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "A collection of multiple investment projects that are part of a single set of interventions that allows for the generation of a single CUP when the projects consist of grants to entities that are not production units and the responsible administration has adopted a single specific administrative provision relating to the set of interventions, such as a resolution, a management provision, a decree, a provision approving one or more rankings, and the like.\r\nThe cumulative CUP cannot, however, be used in all cases where the \"Monit web\" monitoring systems of the State General Accounting Office and the \"Project Management System\" of the Ministry of Economic Development require that each individual intervention be monitored at the individual recipient level. (CIPE Resolution No. 54/2010)."
+    "@value" : "A collection of multiple investment projects that are part of a single set of interventions that allows for the generation of a single CUP when the projects consist of grants to entities that are not production units and the responsible administration has adopted a single specific administrative provision relating to the set of interventions, such as a resolution, a management provision, a decree, a provision approving one or more rankings, and the like.\nThe cumulative CUP cannot, however, be used in all cases where the \"Monit web\" monitoring systems of the State General Accounting Office and the \"Project Management System\" of the Ministry of Economic Development require that each individual intervention be monitored at the individual recipient level. (CIPE Resolution No. 54/2010)."
   }, {
     "@language" : "it",
-    "@value" : "Insieme di molteplici progetti d'investimento che fanno parte di un unico complesso di interventi che consente la generazione di un unico CUP qualora i progetti consistono nella concessione di contributi a soggetti che non sono unità produttive e l’amministrazione responsabile ha adottato un unico apposito provvedimento amministrativo, relativo al complesso di interventi, quale ad esempio una delibera, un provvedimento dirigenziale, un decreto, un provvedimento di approvazione di una o più graduatorie, e simili.\r\nIl CUP cumulativo non può comunque essere utilizzato in tutti i casi in cui i sistemi di monitoraggio «Monit web» della Ragioneria generale dello Stato e «Sistema gestione progetti» del Ministero dello sviluppo economico richiedano che ciascun singolo intervento sia monitorato a livello di singolo destinatario. (Delibera Cipe n. 54/2010)."
+    "@value" : "Insieme di molteplici progetti d'investimento che fanno parte di un unico complesso di interventi che consente la generazione di un unico CUP qualora i progetti consistono nella concessione di contributi a soggetti che non sono unità produttive e l’amministrazione responsabile ha adottato un unico apposito provvedimento amministrativo, relativo al complesso di interventi, quale ad esempio una delibera, un provvedimento dirigenziale, un decreto, un provvedimento di approvazione di una o più graduatorie, e simili.\nIl CUP cumulativo non può comunque essere utilizzato in tutti i casi in cui i sistemi di monitoraggio «Monit web» della Ragioneria generale dello Stato e «Sistema gestione progetti» del Ministero dello sviluppo economico richiedano che ciascun singolo intervento sia monitorato a livello di singolo destinatario. (Delibera Cipe n. 54/2010)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3001,10 +2929,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "it",
-    "@value" : "Classifica il tipo di progetto e le sue modalità di esecuzione e rappresenta nell'ambito dell'intervento il dato gerarchicamente più importante nel sistema. È il primo dei due livelli (natura e tipologia), tutti obbligatori.\r\nLe 6 Nature di intervento presenti nel sistema sono le seguenti:\r\n01 - Acquisto di beni\r\n02 - Acquisto o realizzazione di servizi\r\n03 - Realizzazione di lavori pubblici (opera ed impiantistica)\r\n06 - Concessione di contributi ad altri soggetti\r\n07 - Concessione di incentivi ad unità produttive\r\n08 - Sottoscrizione iniziale o aumento di capitale sociale (compresi spin off), fondi di rischio o di garanzia."
+    "@value" : "Classifica il tipo di progetto e le sue modalità di esecuzione e rappresenta nell'ambito dell'intervento il dato gerarchicamente più importante nel sistema. È il primo dei due livelli (natura e tipologia), tutti obbligatori.\nLe 6 Nature di intervento presenti nel sistema sono le seguenti:\n01 - Acquisto di beni\n02 - Acquisto o realizzazione di servizi\n03 - Realizzazione di lavori pubblici (opera ed impiantistica)\n06 - Concessione di contributi ad altri soggetti\n07 - Concessione di incentivi ad unità produttive\n08 - Sottoscrizione iniziale o aumento di capitale sociale (compresi spin off), fondi di rischio o di garanzia."
   }, {
     "@language" : "en",
-    "@value" : "It classifies the type of project and its implementation methods and represents the most important hierarchical data within the system. It is the first of two levels (nature and typology), both of which are mandatory.\r\nThe 6 types of intervention present in the system are as follows:\r\n01 - Purchase of goods\r\n02 - Purchase or provision of services\r\n03 - Construction of public works (construction and systems)\r\n06 - Granting of contributions to other entities\r\n07 - Granting of incentives to production units\r\n08 - Initial subscription or increase in share capital (including spin-offs), venture or guarantee funds."
+    "@value" : "It classifies the type of project and its implementation methods and represents the most important hierarchical data within the system. It is the first of two levels (nature and typology), both of which are mandatory.\nThe 6 types of intervention present in the system are as follows:\n01 - Purchase of goods\n02 - Purchase or provision of services\n03 - Construction of public works (construction and systems)\n06 - Granting of contributions to other entities\n07 - Granting of incentives to production units\n08 - Initial subscription or increase in share capital (including spin-offs), venture or guarantee funds."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -3110,10 +3038,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "it",
-    "@value" : "Individua le categorie omogenee all'interno delle quali ricomprendere gli interventi in base alla loro destinazione. È il primo dei tre livelli (settore, sottosettore e categoria), tutti obbligatori. Gli 11 settori di intervento presenti nel sistema sono i seguenti:\r\n01 - infrastrutture di trasporto\r\n02 - infrastrutture ambientali e risorse idriche\r\n03 - infrastrutture del settore energetico\r\n04 - infrastrutture per l'attrezzatura di aree produttive\r\n05 - infrastrutture sociali\r\n06 - opere, impianti ed attrezzature per attività produttive, e la ricerca e l'impresa sociale\r\n07 - infrastrutture per telecomunicazioni e tecnologie informatiche\r\n08 - ricerca sviluppo tecnologico ed innovazione\r\n09 - servizi alle imprese\r\n10 - servizi per la p.a. e per la collettività\r\n11 - istruzione, formazione e sostegni per il mercato del lavoro."
+    "@value" : "Individua le categorie omogenee all'interno delle quali ricomprendere gli interventi in base alla loro destinazione. È il primo dei tre livelli (settore, sottosettore e categoria), tutti obbligatori. Gli 11 settori di intervento presenti nel sistema sono i seguenti:\n01 - infrastrutture di trasporto\n02 - infrastrutture ambientali e risorse idriche\n03 - infrastrutture del settore energetico\n04 - infrastrutture per l'attrezzatura di aree produttive\n05 - infrastrutture sociali\n06 - opere, impianti ed attrezzature per attività produttive, e la ricerca e l'impresa sociale\n07 - infrastrutture per telecomunicazioni e tecnologie informatiche\n08 - ricerca sviluppo tecnologico ed innovazione\n09 - servizi alle imprese\n10 - servizi per la p.a. e per la collettività\n11 - istruzione, formazione e sostegni per il mercato del lavoro."
   }, {
     "@language" : "en",
-    "@value" : "It identifies homogeneous categories within which interventions are classified based on their intended purpose. This is the first of three levels (sector, subsector, and category), all of which are mandatory. The 11 intervention sectors present in the system are as follows:\r\n01 - transport infrastructure\r\n02 - environmental infrastructure and water resources\r\n03 - energy sector infrastructure\r\n04 - infrastructure for the equipment of production areas\r\n05 - social infrastructure\r\n06 - works, facilities, and equipment for production activities, research, and social enterprise\r\n07 - telecommunications and information technology infrastructure\r\n08 - research, technological development, and innovation\r\n09 - business services\r\n10 - public administration and community services\r\n11 - education, training, and labor market support."
+    "@value" : "It identifies homogeneous categories within which interventions are classified based on their intended purpose. This is the first of three levels (sector, subsector, and category), all of which are mandatory. The 11 intervention sectors present in the system are as follows:\n01 - transport infrastructure\n02 - environmental infrastructure and water resources\n03 - energy sector infrastructure\n04 - infrastructure for the equipment of production areas\n05 - social infrastructure\n06 - works, facilities, and equipment for production activities, research, and social enterprise\n07 - telecommunications and information technology infrastructure\n08 - research, technological development, and innovation\n09 - business services\n10 - public administration and community services\n11 - education, training, and labor market support."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3213,10 +3141,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Entity responsible for implementing the interventions and, therefore, responsible for requesting the CUP:\r\na. For the construction of public works: the contracting authority, the concessionaire, or the Municipality;\r\nb. For the granting of incentives to production units: the public entity responsible for granting public resources or its delegate (including a private one); \r\nc. For the granting of aid to entities other than production units: the public entity holding the concession; \r\nd. For the purchase of goods and services or shareholdings/capital contributions: the public entity responsible for the spending decision; \r\ne. For the provision of services: the public entity implementing the project.\r\nThe project owner and the CUP requester are the same, except in the case of a CUP request by proxy granted to the \"concentrator\" entity.\r\n(CIPE Resolution no. 143 of 27 December 2002, referred to by CIPE Resolution no. 63 of 26 November 2020)."
+    "@value" : "Entity responsible for implementing the interventions and, therefore, responsible for requesting the CUP:\na. For the construction of public works: the contracting authority, the concessionaire, or the Municipality;\nb. For the granting of incentives to production units: the public entity responsible for granting public resources or its delegate (including a private one); \nc. For the granting of aid to entities other than production units: the public entity holding the concession; \nd. For the purchase of goods and services or shareholdings/capital contributions: the public entity responsible for the spending decision; \ne. For the provision of services: the public entity implementing the project.\nThe project owner and the CUP requester are the same, except in the case of a CUP request by proxy granted to the \"concentrator\" entity.\n(CIPE Resolution no. 143 of 27 December 2002, referred to by CIPE Resolution no. 63 of 26 November 2020)."
   }, {
     "@language" : "it",
-    "@value" : "Soggetto cui compete l'attuazione degli interventi e, quindi, responsabile della richiesta del CUP:\r\na. per la realizzazione dei lavori pubblici: la stazione appaltante, il concessionario o il Comune;\r\nb. per la concessione di incentivi a unità produttive: il soggetto pubblico cui spetta la competenza per la concessione delle risorse pubbliche o suo delegato (anche privato); \r\nc. per la concessione di aiuti a soggetti diversi dalle unità produttive: l’Ente pubblico titolare della concessione; \r\nd. per l’acquisto di beni e servizi o partecipazioni azionare/conferimenti capitale: l’ente pubblico titolare della decisione di spesa; \r\ne. per la realizzazione di servizi: l’ente pubblico che realizza il progetto.\r\nSoggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il caso di richiesta CUP su delega rilasciata al soggetto “concentratore”.\r\n(Delibera CIPE n. 143 del 27 dicembre 2002, richiamata dalla Delibera CIPE n. 63 del 26 novembre 2020)."
+    "@value" : "Soggetto cui compete l'attuazione degli interventi e, quindi, responsabile della richiesta del CUP:\na. per la realizzazione dei lavori pubblici: la stazione appaltante, il concessionario o il Comune;\nb. per la concessione di incentivi a unità produttive: il soggetto pubblico cui spetta la competenza per la concessione delle risorse pubbliche o suo delegato (anche privato); \nc. per la concessione di aiuti a soggetti diversi dalle unità produttive: l’Ente pubblico titolare della concessione; \nd. per l’acquisto di beni e servizi o partecipazioni azionare/conferimenti capitale: l’ente pubblico titolare della decisione di spesa; \ne. per la realizzazione di servizi: l’ente pubblico che realizza il progetto.\nSoggetto titolare del progetto e soggetto richiedente il CUP coincidono salvo il caso di richiesta CUP su delega rilasciata al soggetto “concentratore”.\n(Delibera CIPE n. 143 del 27 dicembre 2002, richiamata dalla Delibera CIPE n. 63 del 26 novembre 2020)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3908,7 +3836,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_di_beni",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
     "@value" : "acquisto di beni"
@@ -3918,7 +3846,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_corso_di_formazione",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
     "@value" : "acquisto o realizzazione corso di formazione"
@@ -3928,7 +3856,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_di_servizi",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
     "@value" : "acquisto o realizzazione di servizi"
@@ -3938,7 +3866,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_progetto_di_ricerca",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
     "@value" : "acquisto o realizzazione progetto di ricerca"
@@ -3948,7 +3876,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/acquisto_o_realizzazione_studio_o_progettazione",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
     "@value" : "acquisto o realizzazione studio o progettazione"
@@ -4150,7 +4078,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/concessione_di_contributi_ad_altri_soggetti",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
     "@value" : "concessione di contributi ad altri soggetti"
@@ -4160,7 +4088,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/concessione_di_incentivi_ad_unità_produttive",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
     "@value" : "concessione di incentivi ad unità produttive"
@@ -5477,7 +5405,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/realizzazione_di_lavori_pubblici",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "construction of public works"
@@ -5545,7 +5473,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/italia/PublicInvestment/onto/PublicInvestment/sottoscrizione_iniziale_o_aumento_di_capitale",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "initial subscription or capital increase"
